@@ -12,6 +12,8 @@ No health adjustments were made, only changes to evolution rate were adjusted.
 
 #
 
+Normal Mode
+
 The aim of normal mode was to make badasses more frequent and to rarely fight larva. 
 Becuase let's be honest, no one wants to fight larva. Unless you've just stared a new game or are going in undergeared.
 These changes are aimed to make varkid's a good source of fun and XP.
@@ -26,7 +28,11 @@ Increase superbadass to raid from 0% to 5% (currently not in game)
 
 #
 
-TVHM:
+TVHM
+
+On TVHM, you'd better be ready. Mama isn't holding your hand anymore, the gloves are coming off.
+You'd better pray you don't run into a Super Badass level difficulty as soon as you start TVHM and are undergeared.
+Kill fast or get killed.
 
 Increase larva to adult from 60% to 100% TVHM
 
