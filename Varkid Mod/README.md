@@ -11,7 +11,7 @@ Increase badass to superbadass from 10% to 15%
 
 Increase superbadass to raid from 0% to 5%
 
-
+#
 
 TVHM:
 
