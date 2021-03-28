@@ -9,50 +9,50 @@
 ###
 
 
-#larva to adult normal
+# larva to adult normal
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult.OnePlayer_PT1.BaseValueConstant,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult.TwoPlayers_PT1.BaseValueConstant,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult.ThreePlayers_PT1.BaseValueConstant,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult.FourPlayers_PT1.BaseValueConstant,0,,1
 
-#larva to adult TVHM
+# larva to adult TVHM
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult.OnePlayer_PT2.BaseValueConstant,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult.TwoPlayers_PT2.BaseValueConstant,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult.ThreePlayers_PT2.BaseValueConstant,0,,1
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult.FourPlayers_PT2.BaseValueConstant,0,,1
 
-#adult to badass normal
+# adult to badass normal
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_AdultToBadass,OnePlayer_PT1.BaseValueConstant,0,,2
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_AdultToBadass,TwoPlayers_PT1.BaseValueConstant,0,,2
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_AdultToBadass,ThreePlayers_PT1.BaseValueConstant,0,,2
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_AdultToBadass,FourPlayers_PT1.BaseValueConstant,0,,2
 
-#adult to badass TVHM
+# adult to badass TVHM
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_AdultToBadass,OnePlayer_PT2.BaseValueConstant,0,,2
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_AdultToBadass,TwoPlayers_PT2.BaseValueConstant,0,,2
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_AdultToBadass,ThreePlayers_PT2.BaseValueConstant,0,,2
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_AdultToBadass,FourPlayers_PT2.BaseValueConstant,0,,2
 
-#badass to superbadass normal
+# badass to superbadass normal
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_BadassToSuper,OnePlayer_PT1.BaseValueConstant,0,,3
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_BadassToSuper,TwoPlayers_PT1.BaseValueConstant,0,,3
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_BadassToSuper,ThreePlayers_PT1.BaseValueConstant,0,,3
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_BadassToSuper,FourPlayers_PT1.BaseValueConstant,0,,3
 
-#badass to superbadass TVHM
+# badass to superbadass TVHM
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_BadassToSuper,OnePlayer_PT2.BaseValueConstant,0,,3
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_BadassToSuper,TwoPlayers_PT2.BaseValueConstant,0,,3
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_BadassToSuper,ThreePlayers_PT2.BaseValueConstant,0,,3
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_BadassToSuper,FourPlayers_PT2.BaseValueConstant,0,,3
 
-#superbadass to raid, not in game i think but included and not active
-#super to raid normal
+# superbadass to raid, not in game i think but included and not active
+# super to raid normal
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_SuperToRaid,OnePlayer_PT1.BaseValueConstant,0,,4
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_SuperToRaid,TwoPlayers_PT1.BaseValueConstant,0,,4
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_SuperToRaid,ThreePlayers_PT1.BaseValueConstant,0,,4
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_SuperToRaid,FourPlayers_PT1.BaseValueConstant,0,,4
 
-#super to raid TVHM
+# super to raid TVHM
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_SuperToRaid,OnePlayer_PT2.BaseValueConstant,0,,4
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_SuperToRaid,TwoPlayers_PT2.BaseValueConstant,0,,4
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_SuperToRaid,ThreePlayers_PT2.BaseValueConstant,0,,4
