@@ -1,3 +1,4 @@
+# Values to buff/change
 For this mod, I want to make the following changes: 
 
 Normal Mode:
