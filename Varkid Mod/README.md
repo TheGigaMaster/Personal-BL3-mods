@@ -23,4 +23,6 @@ Increase badass to superbadass from 20% to 40% TVHM
 
 Increase superbadass to ultimate badass (AKA Raid) from 10% to 20% TVHM 
 
+#
+
 I'm pretty sure once we get the new raid boss, the part of "superbadass -> raid" will become active, but we'll see.
