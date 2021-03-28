@@ -1,13 +1,10 @@
 # Varkid Evolution Chance Increase
 
-Tired of varkids never leveling up and evolving? Ever think you should not be able to just run over these creatures?
-
-Bored of not worrying about having to take them out quick? If so, this mod is for you!
+Tired of varkids never leveling up and evolving? Ever think you should not be able to just run over these creatures? Bored of not worrying about having to take them out quick? If so, this mod is for you!
 
 On normal mode, evolution chance is increased by ~50%, and on TVHM, evolution chance is ~doubled. 
 
 Although the code is in the mod, it is not set up for multiplayer yet, so it will only affect single player sessions.
-
 No health adjustments were made, only changes to evolution rate were adjusted.
 
 #
