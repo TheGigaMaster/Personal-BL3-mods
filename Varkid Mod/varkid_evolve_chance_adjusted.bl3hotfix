@@ -72,10 +72,12 @@ SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_V
 
 
 ## Evolution Delay Changes
+## I think this changes their health
+
 
 
 # Players 1 Pt1 (normal)
-#SparkPatchEntry,(1,2,0),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,1P_PT1,Range,0,,(Value=3,Variance=2)
+SparkPatchEntry,(1,2,0),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,1P_PT1,Range,0,,(Value=6,Variance=2)
 
 # Players 2 Pt1 (normal)
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attribute/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,2P_PT1,Range,0,,(Value=3,Variance=2)
@@ -87,7 +89,7 @@ SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_V
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attribute/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,4P_PT1,Range,0,,(Value=3,Variance=2)
 
 # Players 1 Pt 2 (TVHM)
-#SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attribute/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,1P_PT2,Range,0,,(Value=3,Variance=2)
+SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attribute/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,1P_PT2,Range,0,,(Value=3,Variance=2)
 
 # Players 2 Pt 2 (TVHM)
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attribute/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,2P_PT2,Range,0,,(Value=3,Variance=2)
@@ -95,3 +97,19 @@ SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_V
 # Players 3 Pt 2 (TVHM)
 #SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attribute/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,3P_PT2,Range,0,,(Value=3,Variance=2)
 
+
+
+## Boss Limit
+
+
+# Normal mode
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/WeightingPlayerCount/DataTable_EnemyMajorUpgrade_PerPlayer.DataTable_EnemyMajorUpgrade_PerPlayer,UpgradePerPlayer,OnePlayer_PT1,,0,,(BaseValueConstant=50,BaseValueScale=1)
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/WeightingPlayerCount/DataTable_EnemyMajorUpgrade_PerPlayer.DataTable_EnemyMajorUpgrade_PerPlayer,UpgradePerPlayer,TwoPlayers_PT1,,0,,(BaseValueConstant=50,BaseValueScale=1)
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/WeightingPlayerCount/DataTable_EnemyMajorUpgrade_PerPlayer.DataTable_EnemyMajorUpgrade_PerPlayer,UpgradePerPlayer,ThreePlayers_PT1,,0,,(BaseValueConstant=50,BaseValueScale=1)
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/WeightingPlayerCount/DataTable_EnemyMajorUpgrade_PerPlayer.DataTable_EnemyMajorUpgrade_PerPlayer,UpgradePerPlayer,FourPlayers_PT1,,0,,(BaseValueConstant=50,BaseValueScale=1)
+
+# TVHM
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/WeightingPlayerCount/DataTable_EnemyMajorUpgrade_PerPlayer.DataTable_EnemyMajorUpgrade_PerPlayer,UpgradePerPlayer,OnePlayer_PT2,,0,,(BaseValueConstant=50,BaseValueScale=1)
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/WeightingPlayerCount/DataTable_EnemyMajorUpgrade_PerPlayer.DataTable_EnemyMajorUpgrade_PerPlayer,UpgradePerPlayer,TwoPlayers_PT2,,0,,(BaseValueConstant=50,BaseValueScale=1)
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/WeightingPlayerCount/DataTable_EnemyMajorUpgrade_PerPlayer.DataTable_EnemyMajorUpgrade_PerPlayer,UpgradePerPlayer,ThreePlayers_PT2,,0,,(BaseValueConstant=50,BaseValueScale=1)
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/WeightingPlayerCount/DataTable_EnemyMajorUpgrade_PerPlayer.DataTable_EnemyMajorUpgrade_PerPlayer,UpgradePerPlayer,FourPlayers_PT2,,0,,(BaseValueConstant=50,BaseValueScale=1)
