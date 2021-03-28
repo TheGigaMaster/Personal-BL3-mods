@@ -17,6 +17,10 @@
 ### This is the major overhaul that is supposed to have proper syntax. hope it works.
 ###
 
+
+## Evolution chance changes
+
+
 # larva to adult normal
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult,OnePlayer_PT1,0,,(BaseValueConstant=1,BaseValueScale=1)
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance.Table_VarkidShared_EvolutionChance,EvolveChance_LarvaToAdult,TwoPlayers_PT1,0,,(BaseValueConstant=1,BaseValueScale=1)
