@@ -26,3 +26,15 @@ Increase superbadass to ultimate badass (AKA Raid) from 10% to 20% TVHM
 #
 
 I'm pretty sure once we get the new raid boss, the part of "superbadass -> raid" will become active, but we'll see.
+
+#
+
+Future idea - increase all spawns to make ultimate badass 75%+ and "Raid" 50%. Daddy has the belt in hand.
+And he is not taking no for an answer.
+
+#
+
+Future idea - normal enemies can jump into pods and evolve. IE a tink can jump into a pod and evolve into a badass tink.
+Tink's have turrets, so idk how that would interact. that'd be a lot of work, but a lot of fun.
+Certain enemies wouldn't be able to evolve such as goliaths, bosses, mini-bosses, etc.
+imagine you're just running and gunning, then a normal enemies just upgrades.
