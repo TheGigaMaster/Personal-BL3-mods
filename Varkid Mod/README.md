@@ -1,5 +1,16 @@
-# Values to buff/change
-For this mod, I want to make the following changes: 
+# Varkid Evolution Chance Increase
+
+Tired of varkids never leveling up and evolving? Ever think you should not be able to just run over these creatures?
+
+Bored of not worrying about having to take them out quick? If so, this mod is for you!
+
+On normal mode, evolution chance is increased by ~50%, and on TVHM, evolution chance is ~doubled. 
+
+Although the code is in the mod, it is not set up for multiplayer yet, so it will only affect single player sessions.
+
+No health adjustments were made, only changes to evolution rate were adjusted.
+
+#
 
 Normal Mode:
 
@@ -9,7 +20,7 @@ Increase adult to badass from 30% to 45%
 
 Increase badass to superbadass from 10% to 15%
 
-Increase superbadass to raid from 0% to 5%
+Increase superbadass to raid from 0% to 5% (currently not in game)
 
 #
 
@@ -21,7 +32,7 @@ Increase adult to badass from 40% to 80% TVHM
 
 Increase badass to superbadass from 20% to 40% TVHM
 
-Increase superbadass to ultimate badass (AKA Raid) from 10% to 20% TVHM 
+Increase superbadass to ultimate badass (AKA Raid) from 10% to 20% TVHM (currently not in game)
 
 #
 
