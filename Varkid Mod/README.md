@@ -12,7 +12,15 @@ No health adjustments were made, only changes to evolution rate were adjusted.
 
 #
 
-Normal Mode:
+Normal Mode
+
+The aim of normal mode was to make badasses more frequent and to rarely fight larva. 
+
+Becuase let's be honest, no one wants to fight larva. Unless you've just stared a new game or are going in undergeared.
+
+These changes are aimed to make varkid's a good source of fun and XP.
+
+
 
 Increase larva to adult from 60% to 90%
 
