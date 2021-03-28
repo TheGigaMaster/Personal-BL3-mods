@@ -7,6 +7,10 @@ On normal mode, evolution chance is increased by ~50%, and on TVHM, evolution ch
 Although the code is in the mod, it is not set up for multiplayer yet, so it will only affect single player sessions.
 No health adjustments were made, only changes to evolution rate were adjusted.
 
+This is the first time I've ever made a mod, let alone do anything involving code (excpet for printing Hello, World! in 9th grade).
+So if things don't go quite as expected, don't be shocked when it breaks. Any feedback/tips/advice is appreciated! 
+At some point, I may make variations of this mod to choose how hard you want it to be.
+
 #
 
 Normal Mode
