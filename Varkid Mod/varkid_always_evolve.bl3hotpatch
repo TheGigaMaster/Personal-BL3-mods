@@ -78,7 +78,7 @@ SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_V
 # Normal
 
 # Players 1 Pt1 (normal)
-SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attribute/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,1P_PT1,Range,0,,(Value=4,Variance=0)
+SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attribute/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,1P_PT1,Range,0,,(Value=2,Variance=0)
 
 # Players 2 Pt1 (normal)
 SparkPatchEntry,(1,2,0,),/Game/Enemies/Varkid/_Shared/_Design/Attribute/Table_VarkidShared_EvolutionDelay.Table_VarkidShared_EvolutionDelay,2P_PT1,Range,0,,(Value=3,Variance=0)
