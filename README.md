@@ -11,7 +11,9 @@ The joy of modding is learning how the game works together. It's fun seeing how 
 
 You can contact me below with any questions you may have. I do join voice channels and actually chat, because it's easier to explain a lot of stuff (especially modding) verbally rather than typing. Because there's a *ton* of information, and talking through it helps someone understand it better and allows them to ask questions on the fly to gain better understanding.
 
-Please note, I am a beginner in both modding and coding, but have a solid grasp on the basic and intermediate aspects of modding. I'm a pharmacy school student, not a computer scientist. And with BL3 modding, we have to reverse engineer how the game works in order to  make (read: the modding community has had to make it up on the fly and apply mods.
+Please note, I am a beginner in both modding and coding, but have a solid grasp on the basic and intermediate aspects of modding. With BL3 modding, we have to reverse engineer how the game works in order to make (read: the modding community has had to make it up on the fly and apply mods.
+
+I'm a scientist and healthcare professional, not a computer engineer.
 
 Discord: SkyMaster#6302
 
@@ -76,7 +78,7 @@ Currently known about herme
   - Could this file be linked to a `BaseValueConstant`? Can this be applied to normal varkids? Would it affect the boss and normal varkids overall?
     - IE could he be killed while in his pod inside the raid (this would be bad)
       - Could work around this by redfining the reference: don't use the table. Just replace the enitre section.
-      - `(AttributeToModify=*SOMETHING*'"/Game/*FILEPATH/ITEM.ITEM*"',ModifierType=*IF_THERE_IS_ONE*,ModifierValue=(BaseValueConstant=*VALUE*,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))`
+      - `SparkPatchEntry,(1,1,0,),/Game/*FILEPATH/ITEM.ITEM*,*ROW*.ROW[1],0,,(AttributeToModify=*SOMETHING*'"/Game/*FILEPATH/ITEM.ITEM*"',ModifierType=*IF_THERE_IS_ONE*,ModifierValue=(BaseValueConstant=*VALUE*,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))`
 - His evolve trigger is damage.
 - Can normal varkid data reference the same info that herme has? 
 
