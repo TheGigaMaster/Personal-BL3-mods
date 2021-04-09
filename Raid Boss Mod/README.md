@@ -14,7 +14,8 @@ MainAIAction dictates how they'll act (i think)
 
 In file `BPCHar_VarkidLarva_Raid`, Exports `"_jwp_export_idx": 6,` seems to dictate the evolution path once a health threshold has been met, as dictated by
 
-`    "export_type": "StructProperty",
+`
+    "export_type": "StructProperty",
 
     "_jwp_export_idx": 6,
     
