@@ -14,7 +14,7 @@ MainAIAction dictates how they'll act (i think)
 
 ## File `BPCHar_VarkidLarva_Raid`
 
-His health threshold for evolving is 10% as shown by the following:
+His health threshold for evolving is 10% at all stages, and is as shown by the following:
 
     {
     "export_type": "BPChar_VarkidLarva_Raid_C",
@@ -76,6 +76,8 @@ But what follows after is what caught my eye, I don't know what it does, and I'm
           "export": 0
         }
       }
+
+I think this is what allows him to evolve on his map, but I'm not quite sure.
 
 What determines what's in the pod is this:
 
