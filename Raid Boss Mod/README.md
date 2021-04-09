@@ -8,6 +8,9 @@ is there a lot.
 
 AI_tree hasn't had anything worthwile yet, but it seems to dictate how they'll attack.
 
+The AItree for larva uses `/Game/Enemies/Varkid/_Shared/_Design/Actions` to help dictate the action it'll do, and uses `/Game/Enemies/Varkid/_Shared/_Design/Balance/Table_Varkid_Attacks` for damage
+
+
 MainAIAction dictates how they'll act (i think)
 
 # HERME
