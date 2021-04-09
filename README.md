@@ -35,6 +35,12 @@ More info to come!
 
 # Varkid Info
 
+UPDATE
+
+Am currently working my way through new game files. There's a lot.
+
+#
+
 With the new update, I suspect quite a few things have changed, but I haven't had the chance to dive into it yet.
 
 I'm going to look into the evolution in much greater detail and figure out what conditions (if any) could possibly trigger the final evolution in normal varkids (AKA raid evolution).
