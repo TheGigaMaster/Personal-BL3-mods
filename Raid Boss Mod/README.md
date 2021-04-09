@@ -12,7 +12,17 @@ MainAIAction dictates how they'll act (i think)
 
 # HERME
 
-In file `BPCHar_VarkidLarva_Raid`, Exports `"_jwp_export_idx": 6,` seems to dictate the evolution path once a health threshold has been met, as dictated by
+In file `BPCHar_VarkidLarva_Raid`, Exports `"_jwp_export_idx": 6,` seems to dictate the evolution path once a health threshold has been met, as dictated by the following:
+
+`
+    "export_type": "StructProperty",
+
+    "_jwp_export_idx": 6,
+    
+    "_jwp_is_asset": false,
+    
+    "_jwp_object_name": "EvolveHealthPercentThreshold"
+`
 
 
 
