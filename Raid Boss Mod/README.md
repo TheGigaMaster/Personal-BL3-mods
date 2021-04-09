@@ -32,7 +32,7 @@ In file `BPCHar_VarkidLarva_Raid`, Exports `"_jwp_export_idx": 6,` seems to dict
 Things to note:
 File :`/proj_varkidraid_egg_verm` (verme egg)
 
-`
+
   {
   
     "export_type": "OakDamageComponent",
@@ -60,7 +60,7 @@ File :`/proj_varkidraid_egg_verm` (verme egg)
         ]
         
       },
-`
+
 
 This explains why while verme is in his pod, he can't take damage. 
 
