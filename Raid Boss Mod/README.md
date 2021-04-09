@@ -22,7 +22,6 @@ In file `BPCHar_VarkidLarva_Raid`, Exports `"_jwp_export_idx": 6,` seems to dict
     "_jwp_is_asset": false,
     
     "_jwp_object_name": "EvolveHealthPercentThreshold"
-`
 
 
 
