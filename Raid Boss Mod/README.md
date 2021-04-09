@@ -23,9 +23,21 @@ In file `BPCHar_VarkidLarva_Raid`, Exports `"_jwp_export_idx": 6,` seems to dict
     
     "_jwp_object_name": "EvolveHealthPercentThreshold"
 
+The trigger for Herme to activate I think is `"_jwp_export_idx": 20,`, as it has 
 
-
-#
+    {
+    "export_type": "ComponentDelegateBinding",
+    "_jwp_export_idx": 20,
+    "_jwp_is_asset": false,
+    "_jwp_object_name": "ComponentDelegateBinding_1",
+    "ComponentDelegateBindings": [
+      {
+        "_jwp_arr_idx": 0,
+        "ComponentPropertyName": "OakDamageComponent",
+        "DelegatePropertyName": "OnTakeAnyDamage",
+        "FunctionNameToBind": "BndEvt__OakDamageComponent_K2Node_ComponentBoundEvent_1_TakeAnyPipelineDamageDelegate__DelegateSignature_BPChar_VarkidLarva_Raid"
+      }
+    ]
 
 # VERME
 
