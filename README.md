@@ -99,6 +99,8 @@ Things to investigate and gather data on:
 - Is he a throwback or something more?
 - Can he be added into other spawn areas in the game?
 
+funny idea
+
 - can i turn him into a big baby and have him follow me as a pet
 
 # Other Random Shit to do
