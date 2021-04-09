@@ -75,6 +75,8 @@ Currently known about herme
   - Find why this is, and what file it links itself to which allows this
   - Could this file be linked to a `BaseValueConstant`? Can this be applied to normal varkids? Would it affect the boss and normal varkids overall?
     - IE could he be killed while in his pod inside the raid (this would be bad)
+      - Could work around this by redfining the reference: don't use the table. Just replace the enitre section.
+      - `(AttributeToModify=*SOMETHING*'"/Game/*FILEPATH/ITEM.ITEM*"',ModifierType=*IF_THERE_IS_ONE*,ModifierValue=(BaseValueConstant=*VALUE*,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))`
 - His evolve trigger is damage.
 - Can normal varkid data reference the same info that herme has? 
 
