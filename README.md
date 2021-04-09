@@ -39,9 +39,11 @@ With the new update, I suspect quite a few things have changed, but I haven't ha
 
 I'm going to look into the evolution in much greater detail and figure out what conditions (if any) could possibly trigger the final evolution in normal varkids (AKA raid evolution).
 
-My current theory is that the raid boss follows a different evolution pathway due to meeting a criteria found in it's own enemy file which allows it to evolve to it's final form.
+My current theory is that the raid boss follows the same evolution pathway but can continue due to meeting a criteria found in it's own enemy file which allows it to evolve to the final form in the table `Table_VarkidShared_EvolutionChance`, any player character count, `SuperToRaid`, `BaseValueConstat=0.075`. It may have an override for the `BaseValueConstant` which lets it keep going.
 
-Unfortunately, I suspect that normal varkids will not trigger a final evolution, but that's just a feeling, not actual data backing that up. 
+This could be disproved on the basis that when you enter the raid, he spawns in with a different UI name, meaning he has a special `/Conditions/Condition_VarkidHasNavForEvolve` he could draw from which the game uses to separate him from other varkids. But as above, there could be an override in the `BaseValueConstant` which could explain why he could keep going.
+
+I suspect that normal varkids will not trigger a final evolution, but I do not actual data backing that claim up. 
 
 
 ## Old game file info
@@ -65,9 +67,11 @@ Varkids as a whole have their own table for evolution chance, and I believe that
 After fighting and watching it evolve, one of my theories has been reinforced: the raid use the same pods rather than a unique one.
 Evidence to support this is that the initial evolution of raid boss uses the same pod as a normal varkid. 
 
-However, even though they use the same pod, the boss has another special modifier which separates itself from normal varkids by granting it immunity during evolution. (needs testing and data)
+However, even though they use the same pod (based on visuals), the boss has another special modifier which separates itself from normal varkids by granting it immunity during evolution. (needs testing and data)
 
-Furthermore, the line of code `SuperToRaid` in the game file `/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance` matches what the final evolution stage of the raid boss. 
+- CHECK INTO `Condition_VarkidIsInPod` for health values while in pod. This could explain something!
+
+Furthermore, the line of code `SuperToRaid` in the game file `/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance` matches what the final evolution stage of the raid boss transformos into: a raid boss.
 
 
 Currently known about herme
