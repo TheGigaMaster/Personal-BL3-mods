@@ -22,6 +22,7 @@ File :`/proj_varkidraid_egg_verm`
         ]
       },
 `
+
 This explains why while verme is in his pod, he can't take damage. 
 
 problem is, we basically don't see his egg. he just kinda shows up. 
