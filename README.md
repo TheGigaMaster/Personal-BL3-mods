@@ -5,7 +5,9 @@ I use this to test mods themselves and keep all versions, practical or not.
 
 When a mod is ready, I like to use the direct link and load it into the hotfix merger.
 
-The joy of modding is learning how the game works together. It's fun seeing how it fits together. 
+The joy of modding is learning how the game works together. It's fun seeing how it fits together. And to break it.
+
+Discord: SkyMaster#6302
 
 
 # Moxxi's XP Testing
