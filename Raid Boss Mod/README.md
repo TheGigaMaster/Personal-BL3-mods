@@ -4,6 +4,14 @@ is there a lot.
 
 #
 
+# HERME
+
+
+
+#
+
+# VERME
+
 Things to note:
 File :`/proj_varkidraid_egg_verm`
 `
