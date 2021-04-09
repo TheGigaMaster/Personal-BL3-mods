@@ -5,6 +5,8 @@ I use this to test mods themselves and keep all versions, practical or not.
 
 When a mod is ready, I like to use the direct link and load it into the hotfix merger.
 
+For the love of god, please don't actually use any mods in here. Even I don't know which one's still work. Go to the BL3 mod repository at https://github.com/BLCM/bl3mods for functional mods.
+
 The joy of modding is learning how the game works together. It's fun seeing how it fits together. And to break it.
 
 Discord: SkyMaster#6302
