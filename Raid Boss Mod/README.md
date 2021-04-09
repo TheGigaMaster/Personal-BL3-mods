@@ -8,7 +8,7 @@ is there a lot.
 
 AI_tree hasn't had anything worthwile yet, but it seems to dictate how they'll attack.
 
-The AItree for larva uses `/Game/Enemies/Varkid/_Shared/_Design/Actions` to help dictate the action it'll do, and uses `/Game/Enemies/Varkid/_Shared/_Design/Balance/Table_Varkid_Attacks` for damage
+The AItree for larva uses `/Game/Enemies/Varkid/_Shared/_Design/Actions` to help dictate the action it'll do, and uses `/Game/Enemies/Varkid/_Shared/_Design/Balance/Table_Varkid_Attacks` for damage. What I suspect is that it uses the base game for the normal evoultion attacks, and it's own table for raid boss attacks.
 
 
 MainAIAction dictates how they'll act (i think)
