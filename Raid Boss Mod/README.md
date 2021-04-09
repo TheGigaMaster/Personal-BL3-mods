@@ -6,12 +6,14 @@ is there a lot.
 
 # OVERALL
 
-AI_tree hasn't had anything worthwile yet, but it seems to dictate how they'll attack.
+
 
 The AItree for larva uses `/Game/Enemies/Varkid/_Shared/_Design/Actions` to help dictate the action it'll do, and uses `/Game/Enemies/Varkid/_Shared/_Design/Balance/Table_Varkid_Attacks` for damage. What I suspect is that it uses the base game for the normal evoultion attacks, and it's own table for raid boss attacks.
 
+What I'm currently after is finding the health value/immunity granted when the boss enters the pod.
 
-MainAIAction dictates how they'll act (i think)
+File :`/proj_varkidraid_egg_verm` (verme egg)
+maybe herme's file's reference this... Use the obj ref to trace where the file leads. That'll give me answers.
 
 # HERME
 
@@ -71,6 +73,10 @@ His health threshold for evolving is 10% at all stages, and is as shown by the f
 
 But what follows after is what caught my eye, I don't know what it does, and I'm keen to find out.
 
+This I want to investigate further.
+
+Both fall under `"_jwp_export_idx": 3`, which holds a TON of info, including his evolution health threshold. This is what I want to dive into.
+
     "EvolvingToSpawnOptionMap": [
       {
         "_jwp_arr_idx": 0,
@@ -79,10 +85,43 @@ But what follows after is what caught my eye, I don't know what it does, and I'm
           "export": 0
         }
       }
+    ],
+    "CustomEvolve_SpawnOption": [
+      "SpawnOptions_Varkid_RaidBoss",
+      "/Ixora2/Enemies/_Spawning/Varkid/_Unique/SpawnOptions_Varkid_RaidBoss"
+    ],
+    "VarkidPodHoldDuration": {
+      "ValueMode": "EGbxParamValueMode::Value",
+      "Range": {
+        "Value": 0.1,
+        "Variance": 0
+      }
+    },
+    ...
+    ...
+    },
+    "MainAIAction": [
+      "AITree_VarkidLarva_Raid_C",
+      "/Ixora2/Enemies/Varkid/_Unique/RaidBoss/_Design/Evolutions/AITree_VarkidLarva_Raid"
+    ],
+    ...
+    ...
+    "LandingDataTriggeredDelegate": [
+      {
+        "object": 3,
+        "name": "OnLandingDataTriggered"
+      }
+    ],
+    "SpawnCostSelection": {
+      "Preset": "Boss",
+      "SpawnCost": 80
+    },
 
-I think this is what allows him to evolve on his map, but I'm not quite sure.
+Something tells me this is the trigger for his evolution, and the line `"LandingDataTriggeredDelegate"` might lead me to what gives him his immunity
 
-What determines what's in the pod is this:
+#
+
+What determines what's in the pod when you spawn in is this:
 
     ],
     "CustomEvolve_SpawnOption": [
@@ -187,6 +226,10 @@ This makes the varkid larva pod be in the raid. It ensures the pod will be there
 
 #
 
+## file `Table_Varkid_Balance_Raid`
+
+This dictates health values, experience multiplier, damage multiplier, and loot pools based on NVHM or TVHM.
+
 # VERME
 
 Things to note:
@@ -211,3 +254,4 @@ File :`/proj_varkidraid_egg_verm` (verme egg)
 This explains why while verme is in his pod, he can't take damage. 
 
 problem is, we basically don't see his egg. he just kinda shows up. 
+
