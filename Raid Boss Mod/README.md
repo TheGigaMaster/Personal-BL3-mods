@@ -45,31 +45,17 @@ File :`/proj_varkidraid_egg_verm` (verme egg)
 
 
     {
-  
     "export_type": "OakDamageComponent",
-    
     "_jwp_export_idx": 64,
-    
-      "_jwp_is_asset": false,
-    
+     "_jwp_is_asset": false,
     "_jwp_object_name": "OakDamage_GEN_VARIABLE",
-    
     "bDieWhenHealthDepleted": false,
-    
     "HealthMode": "EDamageComponentHealthMode::SimpleHealth",
-    
     "SimpleHealthInformation": {
-    
       "MaxHealthFormula": {
-      
         "AttributeInitializer": [
-        
           "Init_HealthCalc_VarkidEgg_C",
-          
           "/Ixora2/Enemies/Varkid/_Unique/RaidBoss/_Design/Projectiles/Init_HealthCalc_VarkidEgg"
-          
-        ]
-        
       },
 
 
