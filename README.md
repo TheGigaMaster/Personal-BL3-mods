@@ -22,11 +22,7 @@ For TLDR info, I'll only say what matters in game: it doesn't follow what it say
 More info to come!
 
 
-## Varkid Information
-
-#
-
-# Evolution Info
+## Varkid Info
 
 With the new update, I suspect quite a few things have changed, but I haven't dove into it yet.
 
@@ -34,7 +30,8 @@ I'm going to look into the evolution in much greater detail and figure out what 
 My current theory is that the raid boss follows a different evolution pathway due to meeting a criteria found in it's own enemy file which allows it to evolve to it's final form.
 Unfortunately, I suspect that normal varkids will not trigger a final evolution, but that's just a feeling, not actual data backing that up. 
 
-Old game file info:
+
+# Old game file info
 
 One interesting thing to note is that after super badass, the game says "SuperToRaid" for the final evolution stage. In BL2, there was a 3 step process: super badass -> ultimate badass -> Verminvirous/supreme badass, which is absent in BL3. Digging deeper, it appears that the game decides to go from superbadass -> Verminvirous/supreme badass, omitting an evolution stage.
 Upon a quick look at the wiki, the spawn chance values for ultimate badass -> Verminvirous/Supreme badass match the vaules for the "SuperToRaid" chance. This spawn rate is at 0% for normal mode and only a 7.5% chance in TVHM, which matches up with what's in the game data.
