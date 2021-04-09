@@ -39,7 +39,7 @@ With the new update, I suspect quite a few things have changed, but I haven't ha
 
 I'm going to look into the evolution in much greater detail and figure out what conditions (if any) could possibly trigger the final evolution in normal varkids (AKA raid evolution).
 
-My current theory is that the raid boss follows the same evolution pathway but can continue due to meeting a criteria found in it's own enemy file which allows it to evolve to the final form in the table `Table_VarkidShared_EvolutionChance`, any player character count, `SuperToRaid`, `BaseValueConstat=0.075`. It may have an override for the `BaseValueConstant` which lets it keep going.
+My current theory is that the raid boss follows the same evolution pathway but can continue due to meeting a criteria found in it's own enemy file which allows it to evolve to the final form in the table `Table_VarkidShared_EvolutionChance`, any player character count, `SuperToRaid`, `BaseValueConstat=*VALUE*`. It may have an override for the `BaseValueConstant` which lets it keep going.
 
 This could be disproved on the basis that when you enter the raid, he spawns in with a different UI name, meaning he has a special `/Conditions/Condition_VarkidHasNavForEvolve` he could draw from which the game uses to separate him from other varkids. But as above, there could be an override in the `BaseValueConstant` which could explain why he could keep going.
 
