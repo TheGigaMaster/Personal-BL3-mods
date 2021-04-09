@@ -27,7 +27,7 @@ I'll use only 1 gun, a grenade, shield, artifact and COM to reduce the number va
 While doing XP tests, this will also be a great way to test legendary drop rates (a controversial topic which would yeild good info).
 Having someone to help with gathering a large sample size (n = 30) would greatly increase data reliability.
 
-Preliminary suggests having the artifact doesn't boost the XP gain to the level it says, so I'll dig in the game files to find actual hard numbers.
+Preliminary suggests having the artifact doesn't boost the XP gain to the value it says, so I'll dig in the game files to find actual hard numbers.
 For TLDR info, I'll only say what matters in game: it doesn't follow what it says thus far.
 
 More info to come!
