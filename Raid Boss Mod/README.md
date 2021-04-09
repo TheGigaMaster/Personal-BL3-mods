@@ -12,7 +12,17 @@ MainAIAction dictates how they'll act (i think)
 
 # HERME
 
-In file `BPCHar_VarkidLarva_Raid`, Exports `"_jwp_export_idx": 6,` seems to dictate the evolution path once a health threshold has been met, as dictated by the following:
+## File `BPCHar_VarkidLarva_Raid`
+
+What determines what's in the pod is this:
+
+    ],
+    "CustomEvolve_SpawnOption": [
+      "SpawnOptions_Varkid_RaidBoss",
+      "/Ixora2/Enemies/_Spawning/Varkid/_Unique/SpawnOptions_Varkid_RaidBoss"
+    ],
+
+ Exports `"_jwp_export_idx": 6,` seems to dictate the evolution path once a health threshold has been met, as dictated by the following:
 
 
     "export_type": "StructProperty",
