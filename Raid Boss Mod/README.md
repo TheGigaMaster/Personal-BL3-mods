@@ -112,6 +112,9 @@ The trigger for Herme to activate I think is `"_jwp_export_idx": 20,`, as it has
         ]
     },
 
+## File `SpawnOptions_Varkid_RaidAddsLarva` 
+
+This makes the varkid larva pod be in the raid. It ensures the pod will be there at a 100% chance. It uses `SpawnFactory_OakAi` to spawn him, and ` "Probability": "100.00%",` to make this chance actual.  
 
 # VERME
 
