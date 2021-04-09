@@ -1,4 +1,4 @@
-## What is this place?
+# What is this place?
 
 For testing purposes and not to clog up other repositories 
 I use this to test mods themselves and keep all versions, practical or not.
@@ -8,7 +8,7 @@ When a mod is ready, I like to use the direct link and load it into the hotfix m
 The joy of modding is learning how the game works together. It's fun seeing how it fits together. 
 
 
-## Moxxi's XP Testing
+# Moxxi's XP Testing
 
 I haven't done every mayhem level (only MH11) or any enemy except the Graveward.
 I'll make a spreadsheet (not a forbidden word doc) with every mayhem level on NVHM and TVHM.
@@ -23,7 +23,7 @@ For TLDR info, I'll only say what matters in game: it doesn't follow what it say
 More info to come!
 
 
-## Varkid Info
+# Varkid Info
 
 With the new update, I suspect quite a few things have changed, but I haven't dove into it yet.
 
@@ -74,7 +74,7 @@ Things to investigate and gather data on:
 
 - can i turn him into a big baby and have him follow me as a pet
 
-## Other Random Shit to do
+# Other Random Shit to do
 
 - examine loot pool data files
   - new boss (herme and verme)
