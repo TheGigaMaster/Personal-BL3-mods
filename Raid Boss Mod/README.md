@@ -14,6 +14,59 @@ MainAIAction dictates how they'll act (i think)
 
 ## File `BPCHar_VarkidLarva_Raid`
 
+His health threshold for evolving is 10% as shown by the following:
+
+    {
+    "export_type": "BPChar_VarkidLarva_Raid_C",
+    "_jwp_export_idx": 3,
+    "_jwp_is_asset": false,
+    "_jwp_object_name": "Default__BPChar_VarkidLarva_Raid_C",
+    "UberGraphFrame": {},
+    "EvolveHealthPercentThreshold": {
+      "ValueType": "EGbxParamValueType::Float",
+      "DisabledValueModes": 64,
+      "ValueFlags": 0,
+      "ValueMode": "EGbxParamValueMode::Value",
+      "Range": {
+        "Value": 0.1,
+        "Variance": 0
+      },
+      "AttributeInitializer": {
+        "export": 0
+      },
+      "AttributeData": {
+        "export": 0
+      },
+      "AttributeInitializationData": {
+        "BaseValueConstant": 0,
+        "DataTableValue": {
+          "DataTable": {
+            "export": 0
+          },
+          "RowName": "None",
+          "ValueName": "None"
+        },
+        "BaseValueAttribute": {
+          "export": 0
+        },
+        "AttributeInitializer": {
+          "export": 0
+        },
+        "BaseValueScale": 1
+      },
+      "BlackboardKey": {
+        "KeyName": "None",
+        "bRuntimeKey": false
+      },
+      "Condition": {
+        "export": 0
+      },
+      "Actor": {
+        "export": 0
+      }
+    },
+    }
+
 What determines what's in the pod is this:
 
     ],
