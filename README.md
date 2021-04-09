@@ -41,8 +41,6 @@ Upon a quick look at the wiki, the spawn chance values for ultimate badass -> Ve
 So, what's this mean?
 The game is skipping an evolution step, and once a varkid reaches superbadass, it has a chance go straight to "Raid".
 
-#
-
 # Herme Info
 
 So after playing the new raid boss (which was hella fun), we know that the boss is it's own entity and enemy name.  
