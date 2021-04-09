@@ -44,9 +44,11 @@ Unfortunately, I suspect that normal varkids will not trigger a final evolution,
 
 ## Old game file info
 
-One interesting thing to note is that after super badass, the game says "SuperToRaid" for the final evolution stage. In BL2, there was a 3 step process: super badass -> ultimate badass -> Verminvirous/supreme badass, which is absent in BL3. Digging deeper, it appears that the game decides to go from superbadass -> Verminvirous/supreme badass, omitting an evolution stage.
+NOTE: This is before the update.
 
-Upon a quick look at the wiki, the spawn chance values for ultimate badass -> Verminvirous/Supreme badass match the vaules for the "SuperToRaid" chance. This spawn rate is at 0% for normal mode and only a 7.5% chance in TVHM, which matches up with what's in the game data.
+One interesting thing to note is that after super badass, the game says `SuperToRaid` for the final evolution stage. In BL2, there was a 3 step process: `super badass -> ultimate badass -> Verminvirous/supreme badass`, which is absent in BL3. Digging deeper, it appears that the game decides to go from `superbadass -> supreme badass`, omitting an evolution stage.
+
+Upon a quick look at the wiki, the spawn chance values for ultimate badass -> Verminvirous/Supreme badass match the vaules for the `SuperToRaid` chance. This spawn rate is at 0% for normal mode and only a 7.5% chance in TVHM, which matches up with what's in the game data.
 
 So, what's this mean?
 
@@ -58,7 +60,7 @@ So after playing the new raid boss (which was hella fun), we know that the boss 
 I think that it has a special modifier which allows it to follow the evolution path one step further. 
 
 Varkids as a whole have their own table for evolution chance, and I believe that the raid boss uses this table as well. 
-After fighting and watching it evolve, one of my theories is correct: the raid use the same pods rather than a unique one.
+After fighting and watching it evolve, one of my theories has been reinforced: the raid use the same pods rather than a unique one.
 Evidence to support this is that the initial evolution of raid boss uses the same pod as a normal varkid. 
 
 However, even though they use the same pod, the boss has another special modifier which separates itself from normal varkids by granting it immunity during evolution. (needs testing and data)
@@ -72,7 +74,7 @@ Currently known about herme
 - Pod looks the same as normal varkid pods, but has invincibility phases.
   - Find why this is, and what file it links itself to which allows this
   - Could this file be linked to a `BaseValueConstant`? Can this be applied to normal varkids? Would it affect the boss and normal varkids overall?
-    - IE could he be killed while in his pod inside the raid
+    - IE could he be killed while in his pod inside the raid (this would be bad)
 - His evolve trigger is damage.
 - Can normal varkid data reference the same info that herme has? 
 
