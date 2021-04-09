@@ -8,9 +8,20 @@ is there a lot.
 
 AI_tree hasn't had anything worthwile yet, but it seems to dictate how they'll attack.
 
+MainAIAction dictates how they'll act (i think)
+
 # HERME
 
+In file `BPCHar_VarkidLarva_Raid`, Exports `"_jwp_export_idx": 6,` seems to dictate the evolution path once a health threshold has been met, as dictated by
 
+`    "export_type": "StructProperty",
+
+    "_jwp_export_idx": 6,
+    
+    "_jwp_is_asset": false,
+    
+    "_jwp_object_name": "EvolveHealthPercentThreshold"
+`
 
 #
 
