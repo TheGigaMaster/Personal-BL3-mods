@@ -112,6 +112,8 @@ The trigger for Herme to activate I think is `"_jwp_export_idx": 20,`, as it has
         ]
     },
 
+#
+
 Something really funny to note is that in `"_jwp_export_idx": 4,`, it characterizes the name based on your playthrough. as follows:
 
     "export_type": "AIBalanceStateComponent",
