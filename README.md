@@ -7,12 +7,16 @@ When a mod is ready, I like to use the direct link and load it into the hotfix m
 
 For the love of god, please don't actually use any mods in here. Even I don't know which one's still work. Go to the BL3 mod repository at https://github.com/BLCM/bl3mods for functional mods.
 
-The joy of modding is learning how the game works together. It's fun seeing how it fits together. And to break it.
+The joy of modding is learning how the game works together. It's fun seeing how it fits together. And breaking it. 
+
+You can contact me below with any questions you may have. I do join voice channels and actually chat, because it's easier to explain a lot of stuff (especially modding) verbally rather than typing. Because there's a *ton* of information, and talking through it helps someone understand it better and allows them to ask questions on the fly to gain better understanding.
+
+Please note, I am a beginner in both modding and coding, but have a solid grasp on the basic and intermediate aspects of modding. I'm a pharmacy school student, not a computer scientist. And with BL3 modding, we have to reverse engineer how the game works in order to  make (read: the modding community has had to make it up on the fly and apply mods.
 
 Discord: SkyMaster#6302
 
 
-# Moxxi's XP Testing
+# Moxxi's XP Artifact Testing
 
 I haven't done every mayhem level (only MH11) or any enemy except the Graveward.
 I'll make a spreadsheet (not a forbidden word doc) with every mayhem level on NVHM and TVHM.
@@ -29,28 +33,36 @@ More info to come!
 
 # Varkid Info
 
-With the new update, I suspect quite a few things have changed, but I haven't dove into it yet.
+With the new update, I suspect quite a few things have changed, but I haven't had the chance to dive into it yet.
 
-I'm going to look into the evolution in much greater detail and figure out what conditions (if any) could possibly trigger the final evolution in normal varkids.
+I'm going to look into the evolution in much greater detail and figure out what conditions (if any) could possibly trigger the final evolution in normal varkids (AKA raid evolution).
+
 My current theory is that the raid boss follows a different evolution pathway due to meeting a criteria found in it's own enemy file which allows it to evolve to it's final form.
+
 Unfortunately, I suspect that normal varkids will not trigger a final evolution, but that's just a feeling, not actual data backing that up. 
 
 
 ## Old game file info
 
 One interesting thing to note is that after super badass, the game says "SuperToRaid" for the final evolution stage. In BL2, there was a 3 step process: super badass -> ultimate badass -> Verminvirous/supreme badass, which is absent in BL3. Digging deeper, it appears that the game decides to go from superbadass -> Verminvirous/supreme badass, omitting an evolution stage.
+
 Upon a quick look at the wiki, the spawn chance values for ultimate badass -> Verminvirous/Supreme badass match the vaules for the "SuperToRaid" chance. This spawn rate is at 0% for normal mode and only a 7.5% chance in TVHM, which matches up with what's in the game data.
+
 So, what's this mean?
+
 The game is skipping an evolution step, and once a varkid reaches superbadass, it has a chance go straight to "Raid".
 
 ## Herme Info
 
 So after playing the new raid boss (which was hella fun), we know that the boss is it's own entity and enemy name.  
 I think that it has a special modifier which allows it to follow the evolution path one step further. 
+
 Varkids as a whole have their own table for evolution chance, and I believe that the raid boss uses this table as well. 
 After fighting and watching it evolve, one of my theories is correct: the raid use the same pods rather than a unique one.
 Evidence to support this is that the initial evolution of raid boss uses the same pod as a normal varkid. 
+
 However, even though they use the same pod, the boss has another special modifier which separates itself from normal varkids by granting it immunity during evolution. (needs testing and data)
+
 Furthermore, the line of code `SuperToRaid` in the game file `/Game/Enemies/Varkid/_Shared/_Design/Attributes/Table_VarkidShared_EvolutionChance` matches what the final evolution stage of the raid boss. 
 
 
@@ -68,6 +80,7 @@ Currently known about herme
 ## Verme info
 
 As for Vermivorous the Invincible, I have no idea on that. He's in the raid, but just kinda appears.
+
 Things to investigate and gather data on:
 - How he spawns (where does he come from)
 - Why he spawns (conditions of spawning)
