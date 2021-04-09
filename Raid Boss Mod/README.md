@@ -111,7 +111,67 @@ The trigger for Herme to activate I think is `"_jwp_export_idx": 20,`, as it has
         }
         ]
     },
+
+Something really funny to note is that in `"_jwp_export_idx": 4,`, it characterizes the name based on your playthrough. as follows:
+
+    "export_type": "AIBalanceStateComponent",
+    "_jwp_export_idx": 4,
+    "_jwp_is_asset": false,
+    "_jwp_object_name": "AIBalanceState_GEN_VARIABLE",
+    "PlayThroughs": [
+      {
+        "_jwp_arr_idx": 0,
+        ...
+      },
+      {
+        "_jwp_arr_idx": 1,
+      },
     
+I'd guess `"_jwp_arr_idx": 0,` is NVHM, and `"_jwp_arr_idx": 1,` is TVHM.
+
+The kicker of all this is that for NVHM,
+
+      {
+        "_jwp_arr_idx": 0,
+        "bOverrideUIDisplayName": true,
+        "bOverrideDisplayName": true,
+        "bOverrideDropOnDeathItemPools": false,
+        "bOverrideEquippedItems": false,
+        "bOverrideHealthInformation": false,
+        "DisplayUIName": [
+          "UIName_Varkid_RaidBoss",
+          "/Ixora2/Enemies/Varkid/_Unique/RaidBoss/_Design/Character/UIName_Varkid_RaidBoss"
+        ],
+        "DisplayName": {
+          "string": "Skag Adult",
+          "namespace": "",
+          "key": "B31CF125476239BDBBDD3C81691A8792"
+        },
+        
+
+And for TVHM,
+
+      {
+        "_jwp_arr_idx": 1,
+        "bOverrideUIDisplayName": true,
+        "bOverrideDisplayName": false,
+        "bOverrideDropOnDeathItemPools": false,
+        "bOverrideEquippedItems": false,
+        "bOverrideHealthInformation": false,
+        "DisplayUIName": [
+          "UIName_Varkid_RaidBoss",
+          "/Ixora2/Enemies/Varkid/_Unique/RaidBoss/_Design/Character/UIName_Varkid_RaidBoss"
+        ],
+        "DisplayName": {
+          "string": "",
+          "namespace": "",
+          "key": ""
+        },
+
+NVHM reads the display name as "Skag Adult", whereas TVHM has just "". This is odd, because NVHM uses `"bOverrideDisplayName": true,`, and TVHM has it set to false. 
+
+Don't know what this does yet, but we'll get there!
+
 # 
 
 ## File `SpawnOptions_Varkid_RaidAddsLarva` 
