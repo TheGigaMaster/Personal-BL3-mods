@@ -39,6 +39,8 @@ UPDATE
 
 Am currently working my way through new game files. There's a lot.
 
+Most of the information below is old/outdated, as he's coded differently than I anticipated. So if you want more proper info, check the raid folder.
+
 #
 
 With the new update, I suspect quite a few things have changed, but I haven't had the chance to dive into it yet.
