@@ -65,7 +65,17 @@ His health threshold for evolving is 10% as shown by the following:
         "export": 0
       }
     },
-    }
+
+But what follows after is what caught my eye, I don't know what it does, and I'm keen to find out.
+
+    "EvolvingToSpawnOptionMap": [
+      {
+        "_jwp_arr_idx": 0,
+        "key": 240,
+        "value": {
+          "export": 0
+        }
+      }
 
 What determines what's in the pod is this:
 
