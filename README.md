@@ -6,7 +6,6 @@ When a mod is ready, I like to use the direct link and load it into the hotfix m
 
 The joy of modding is learning how the game works together. It's fun seeing how it fits together. 
 
-#
 
 ## Moxxi's XP Testing
 
@@ -22,7 +21,6 @@ For TLDR info, I'll only say what matters in game: it doesn't follow what it say
 
 More info to come!
 
-#
 
 ## Varkid Information
 
@@ -62,7 +60,6 @@ Currently known about herme
 - His evolve trigger is damage.
 - Can normal varkid data reference the same info that herme has? 
 
-#
 
 # Verme info
 
