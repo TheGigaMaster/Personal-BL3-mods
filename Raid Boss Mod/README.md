@@ -33,7 +33,7 @@ Things to note:
 File :`/proj_varkidraid_egg_verm` (verme egg)
 
 
-  {
+    {
   
     "export_type": "OakDamageComponent",
     
