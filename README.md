@@ -1,4 +1,5 @@
 ## What is this place?
+
 For testing purposes and not to clog up other repositories 
 I use this to test mods themselves and keep all versions, practical or not.
 
@@ -31,14 +32,14 @@ My current theory is that the raid boss follows a different evolution pathway du
 Unfortunately, I suspect that normal varkids will not trigger a final evolution, but that's just a feeling, not actual data backing that up. 
 
 
-# Old game file info
+## Old game file info
 
 One interesting thing to note is that after super badass, the game says "SuperToRaid" for the final evolution stage. In BL2, there was a 3 step process: super badass -> ultimate badass -> Verminvirous/supreme badass, which is absent in BL3. Digging deeper, it appears that the game decides to go from superbadass -> Verminvirous/supreme badass, omitting an evolution stage.
 Upon a quick look at the wiki, the spawn chance values for ultimate badass -> Verminvirous/Supreme badass match the vaules for the "SuperToRaid" chance. This spawn rate is at 0% for normal mode and only a 7.5% chance in TVHM, which matches up with what's in the game data.
 So, what's this mean?
 The game is skipping an evolution step, and once a varkid reaches superbadass, it has a chance go straight to "Raid".
 
-# Herme Info
+## Herme Info
 
 So after playing the new raid boss (which was hella fun), we know that the boss is it's own entity and enemy name.  
 I think that it has a special modifier which allows it to follow the evolution path one step further. 
@@ -60,7 +61,7 @@ Currently known about herme
 - Can normal varkid data reference the same info that herme has? 
 
 
-# Verme info
+## Verme info
 
 As for Vermivorous the Invincible, I have no idea on that. He's in the raid, but just kinda appears.
 Things to investigate and gather data on:
