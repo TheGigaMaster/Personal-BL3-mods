@@ -31,7 +31,7 @@ In file `BPCHar_VarkidLarva_Raid`, Exports `"_jwp_export_idx": 6,` seems to dict
 
 Things to note:
 File :`/proj_varkidraid_egg_verm`
-`
+
   {
     "export_type": "OakDamageComponent",
     "_jwp_export_idx": 64,
@@ -46,7 +46,7 @@ File :`/proj_varkidraid_egg_verm`
           "/Ixora2/Enemies/Varkid/_Unique/RaidBoss/_Design/Projectiles/Init_HealthCalc_VarkidEgg"
         ]
       },
-`
+
 
 This explains why while verme is in his pod, he can't take damage. 
 
