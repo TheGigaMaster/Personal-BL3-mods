@@ -4,6 +4,10 @@ is there a lot.
 
 #
 
+# OVERALL
+
+AI_tree hasn't had anything worthwile yet, but it seems to dictate how they'll attack.
+
 # HERME
 
 
