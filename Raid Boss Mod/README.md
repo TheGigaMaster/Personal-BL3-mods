@@ -172,7 +172,9 @@ And for TVHM,
 
 NVHM reads the display name as "Skag Adult", whereas TVHM has just "". This is odd, because NVHM uses `"bOverrideDisplayName": true,`, and TVHM has it set to false. 
 
-Don't know what this does yet, but we'll get there!
+The real kicker? It's this way in Verme's file too!
+
+Don't know what this does yet, but we'll get there.
 
 # 
 
