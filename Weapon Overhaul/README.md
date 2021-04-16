@@ -16,6 +16,8 @@ Discord: SkyMaster#6302
 
 # Changelog
 
-To find what changes are made, please refer to the spreadsheet above (also WIP), as this lists BaseValueConstant changes which directly affect weapon damage output.
+To find what weapons are buffed/nerfed, please refer to the spreadsheet above (also WIP), as this lists BaseValueConstant changes which directly affect weapon damage output.
+
+Items highlighted in green are buffed, and red are nerfed.
 
 0.1.0 - First unofficial release. Includes changes to base game pistols, SMG's, and AR's.
