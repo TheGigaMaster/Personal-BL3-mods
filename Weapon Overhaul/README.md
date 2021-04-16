@@ -1,5 +1,7 @@
+# Weapon Overhaul Mod
 
-Changes the damage values of a large number of weapons, as many feel unusable after a certain point.
+This mod changes the damage values of a large number of weapons (almost all legendary weapons), as many feel unusable after a certain point (I'm looking at you, Lucian's Call).
+
 This WILL affect game balance significantly, but will also make previously useless weapons feel good.
 
 You can find a table with the values I'm adjusting below:
