@@ -4,7 +4,7 @@ Nobody likes useless legendary items. I personally hate throwing away a large nu
 
 This mod changes the damage values of a large number of weapons (almost all legendary weapons), as many feel unusable after a certain point (I'm looking at you, Lucian's Call).
 
-This WILL affect game balance significantly, but will also make previously useless weapons feel good and takedown weapons feel powerful. Very powerful.
+This WILL affect game balance significantly, but will also make previously useless weapons feel good and takedown weapons feel powerful. Very, very powerful.
 
 You can find a table with the values I'm adjusting below:
 https://docs.google.com/spreadsheets/d/1zrFLIIbHIA9CVrRWtymLQw-GrR0Vt7IgIok5gHRA8Lo/edit?usp=sharing
