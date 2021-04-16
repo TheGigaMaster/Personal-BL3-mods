@@ -13,3 +13,7 @@ Any and all feedback is appreciated, as it'll allow me to better balance weapons
 
 If anything feels broken/OP or underpowered, please contact me on Discord.
 Discord: SkyMaster#6302
+
+# Changelog
+
+0.1.0 - First unofficial release. Includes changes to base game pistols, SMG's, and AR's.
