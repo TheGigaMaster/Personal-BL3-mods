@@ -1,7 +1,7 @@
 ###
 ### Name: Major Weapon Balance Overhaul
 ### Author: TheGigaMaster
-### Version: 0.1.1
+### Version: 0.1.2
 ### Categories: gear-general
 ###
 ### License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
@@ -581,7 +581,6 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Balance/DataTabl
 
 ### SNIPERS
 
-
 ## DAHL
 
 # Malak's Bane (SR_MalaksBane)
@@ -594,7 +593,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 ## HYPERION
 
 # Crossbow (SR_Masterwork)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SR_Masterwork,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.75
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SR_Masterwork,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,12.0
 
 # Two Time (SR_TheTwoTime)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SR_TheTwoTime,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.25
@@ -609,19 +608,19 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 ## JAKOBS
 
 # Headsplosion (SR_Headsplosion)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Headsplosion,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.95
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Headsplosion,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.75
 
 # Monocle (SR_Monocle)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Monocle,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.55
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Monocle,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.475
 
 # Hunted damage
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Hunted,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.9
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Hunted,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.25
 
 # Hunter damage
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Hunter,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.1
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Hunter,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.25
 
 # Huntress damage
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Huntress,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.9
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_Huntress,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.25
 
 # Ice Queen (SR_IceQueen)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SR_IceQueen,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.1
@@ -630,10 +629,10 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 ## Maliwan
 
 # ASMD (SR_ASMD)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SR_ASMD,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.15
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SR_ASMD,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.2
 
 # Krakatoa (SR_Krakatoa)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SR_Krakatoa,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SR_Krakatoa,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,5.45	
 
 # Soleki Protocol (SR_Ikelos)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SR_Ikelos,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.05
@@ -648,25 +647,8 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_Prison,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.4
 
 # Lyuda (SR_Lyuda)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_Lyuda,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.1
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_Lyuda,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.55
 
-
-
-## SNIPER CRIT BUFFS (Credit: Apocalyptech)
-
-# All Sniper Rifles
-
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,1.4
-
-SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,2.1
-
-# Jakobs-Specific Buffs
-
-SparkLevelPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/Barrel/DataTable_Weapon_SR_Barrel_Init.DataTable_Weapon_SR_Barrel_Init,JAK_Barrel_01,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,1.1
-
-SparkLevelPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/Barrel/DataTable_Weapon_SR_Barrel_Init.DataTable_Weapon_SR_Barrel_Init,JAK_Barrel_02,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,1.1
-
-SparkLevelPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/Barrel/DataTable_Weapon_SR_Barrel_Init.DataTable_Weapon_SR_Barrel_Init,JAK_Barrel_03,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,1.1
 
 
 
