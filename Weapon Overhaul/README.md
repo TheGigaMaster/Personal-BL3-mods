@@ -13,6 +13,7 @@ https://docs.google.com/spreadsheets/d/1zrFLIIbHIA9CVrRWtymLQw-GrR0Vt7IgIok5gHRA
 This mod is very much so a WIP, so thing's will NOT be balanced at all. I created the values based on how they feel.
 Any and all feedback is appreciated, as it'll allow me to better balance weapons out. After all, we don't want to end up with another Free Radical.
 
+
 If anything feels broken/OP or underpowered, please contact me on Discord.
 Discord: SkyMaster#6302
 
@@ -22,4 +23,4 @@ To find what weapons are buffed/nerfed, please refer to the spreadsheet above (a
 
 Items highlighted in green are buffed, and red are nerfed.
 
-0.1.0 - First unofficial release. Includes changes to base game pistols, SMG's, and AR's.
+0.1.0 - First unofficial release. Includes changes to base game pistols, SMG's, and AR's. This is designed to lay the foundation/groundwork of how this mod will be made. Values will NOT be balanced very well, if at all.
