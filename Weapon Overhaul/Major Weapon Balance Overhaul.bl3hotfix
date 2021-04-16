@@ -510,103 +510,113 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 
 
+
+
+
 ### SHOTGUNS
+
 
 ## Hyperion
 
-# Brainstormer - Uses Redistributor
-#SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,WEAPON_NAME,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,
+# Brainstormer  (SG_Redistributor)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Redistributor,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.711
 
 # Butcher (SG_Butcher)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Butcher,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.25
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Butcher,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.688
 
 # Conference Call  (SG_ConferenceCall)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_ConferenceCall,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.15
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_ConferenceCall,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.322
 
 # Face Puncher  (SG_Brick)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Brick,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.525
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Brick,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.315
 
 # Phebert  (SG_Phebert)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Phebert,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,9.0
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Phebert,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,10.150
 
-# Redistributor  (SG_Redistributor)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Redistributor,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.2
+# Reflux 
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Mayhem2/Gear/Weapon/DataTable_WeaponBalance_Mayhem2.DataTable_WeaponBalance_Mayhem2,SG_Reflux,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.575
 
 
 ## Jakobs
 
 # Fingerbiter (SG_Fingerbiter)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Fingerbiter,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Fingerbiter,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.495
 
 # Nimble Jack (SG_NimbleJack)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_NimbleJack,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.3
-
-# One Pump Chump (SG_OnePumpChump)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_OnePumpChump,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,12.0
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_NimbleJack,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.885
 
 # Sledge's Super Shotty (SG_Sledge)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Sledge,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.9
-
-# TK's Wave (Direct file edit)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Sledge,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.375
 
 # Garcia 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Garcia,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.05
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Garcia,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.150
+
+# One Pump Chump (SG_OnePumpChump)
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_OnePumpChump,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,14.4
+
+# Hellwalker NERF
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Hellwalker,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.6887
 
 # Tidal Wave (Direct file edit)
+
+# TK's Wave (Direct file edit)
 
 
 ## MALIWAN
 
 # Kill-O-The-Wisp (SG_Wisp)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SG_Wisp,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,5.25
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SG_Wisp,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,7.623
 
 # Mind Killer (SG_Mindkiller)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SG_Mindkiller,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.3
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SG_Mindkiller,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.316
 
 # Projectile Recursion (SG_Recursion)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SG_Recursion,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,7.5
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SG_Recursion,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,6.30
 
 # Shrieking Devil (SG_Shriek)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SG_Shriek,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,10.0
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SG_Shriek,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,10.147
 
 # Vosks Deathgrip damage
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Re-Engagement/Balance/DataTable_ReEngagement1_Weapons.DataTable_ReEngagement1_Weapons,Deathgrip,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Re-Engagement/Balance/DataTable_ReEngagement1_Weapons.DataTable_ReEngagement1_Weapons,Deathgrip,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.875
 
 
 ## TEDIORE
 
-# The Horizon (SG_Horizon)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SG_Horizon,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.1
-
 # Creeping Death Damage
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SG_Sludge,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SG_Sludge,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.125
 
 # Polybius damage
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SG_Polybius,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.55
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SG_Polybius,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.321
+
+# The Horizon (SG_Horizon)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SG_Horizon,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.461
 
 
 ## TORGUE
 
 # Chomper (SG_Balrog)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Balrog,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.85
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Balrog,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.855
 
 # Flakker 	1 -> 1.65
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Flakker,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.65
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Flakker,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.352
 
 # Flakker Fire Rate 	1 -> 1.35
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/_Unique/Flakker/Parts/Part_SG_Torgue_Barrel_Flakker.Part_SG_Torgue_Barrel_Flakker,AspectList.AspectList[0].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,1.35
 
-# Redline (SG_Redline)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Redline,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
-
 # Lob (SG_TheLob)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_TheLob,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.22
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_TheLob,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.980
 
 # Thumper (SG_Thumper)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_Thumper,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.30
 
 # Tiggs Boom 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Balance/DataTable_Raid1_Weapons.DataTable_Raid1_Weapons,SG_TiggsBoom,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.85
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Balance/DataTable_Raid1_Weapons.DataTable_Raid1_Weapons,SG_TiggsBoom,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.362
+
+
+## BROKE
+
+# Redline (SG_Redline)
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Balance/DataTable_Raid1_Weapons.DataTable_Raid1_Weapons,SG_Redline,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.362
 
 
 
