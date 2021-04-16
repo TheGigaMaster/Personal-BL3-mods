@@ -23,6 +23,8 @@ To find what weapons are buffed/nerfed, please refer to the spreadsheet above (a
 
 Items highlighted in green are buffed, and red are nerfed.
 
+0.1.5 - Completely rebalanced all pistols and SMG's. Buff values can be found on the spreadsheet in the corresponding sheet (ie Base SMG DMG or Base Pistol DMG)
+
 0.1.3 - Balanced Atlas, COV and Dahl pistols. Dahl AAA doesn't work currently.
 
 0.1.2 - Balanced sniper damage values to be positive
