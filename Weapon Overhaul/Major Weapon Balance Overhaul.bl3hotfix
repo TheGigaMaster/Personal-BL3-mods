@@ -382,119 +382,125 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Event2/Gear/Weapon/DataTabl
 
 
 
-
 ### ASSAULT RIFLES
-
 
 
 ## ATLAS
 
 # Carrier 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_ATL.DataTable_WeaponBalance_Unique_ATL,AR_Carrier,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.75
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_ATL.DataTable_WeaponBalance_Unique_ATL,AR_Carrier,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.56
 
-# RebelYell 	1 -> 2.375
-SparkLevelPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Atlas/_Shared/_Design/_Unique/RebellYell/Parts/Part_AR_ATL_Barrel_RebelYell.Part_AR_ATL_Barrel_RebelYell,InventoryAttributeEffects.InventoryAttributeEffects[0],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=2.375,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))
+# RebelYell
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Atlas/_Shared/_Design/_Unique/RebellYell/Parts/Part_AR_ATL_Barrel_RebelYell.Part_AR_ATL_Barrel_RebelYell,InventoryAttributeEffects.InventoryAttributeEffects[0],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=2.295,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))
 
 
 ## COV
 
+# Sawbar (AR_SAWBAR) 
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,AR_SAWBAR,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.40
 
-# Embrace the Pain (AR_KreigDamage)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,AR_KreigDamage,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.4
+# NEEDS REWORKED
 
 # Pain is Power (AR_CHAOS) 
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,AR_CHAOS,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.4
 
-# Sawbar (AR_SAWBAR) 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,AR_SAWBAR,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.1
+# Embrace the Pain (AR_KreigDamage)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,AR_KreigDamage,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.960
 
 
 ## DAHL
 
-# Breath of the Dying (AR_BOTD) 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,AR_BOTD,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.80
-
 # Barrage (AR_Barrage) 
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,AR_Barrage,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
- 
+
+# Breath of the Dying (AR_BOTD) 
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,AR_BOTD,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.620
+
 # Good Juju (Juju)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Re-Engagement/Balance/DataTable_ReEngagement1_Weapons.DataTable_ReEngagement1_Weapons,Juju,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.75
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Re-Engagement/Balance/DataTable_ReEngagement1_Weapons.DataTable_ReEngagement1_Weapons,Juju,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.148
 
 # Full auto Good Juju
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Raid1/Re-Engagement/Weapons/Juju/Parts/Part_DAL_AR_Barrel_ETech_Juju.Part_DAL_AR_Barrel_ETech_Juju,InventoryAttributeEffects.InventoryAttributeEffects[1],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_FireRate.Att_Weapon_FireRate"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.9))
 
 # Star Helix (AR_StarHelix) 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,AR_StarHelix,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.05
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,AR_StarHelix,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.875
 
 # Warlord (AR_Warlord) 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,AR_Warlord,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,AR_Warlord,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.350
 
 
 ## JAKOBS
 
+## BROKEN NEEDS FIXED
+
 # Bekha (AR_Bekah) 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_Bekah,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.9
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_Bekah,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.5
+
+# Traitor's Death (AR_TraitorsDeath)	
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_TraitorsDeath,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.5
+
+## WORKS
+
+# Lead Sprinkler (AR_LeadSprinkler)	
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_LeadSprinkler,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
 
 # Gatling Gun (AR_GatlingGun)	
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_GatlingGun,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.3
 
 # Hands of Glory (AR_HandOfGlory)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_HandOfGlory,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.1
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_HandOfGlory,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.125
 
-# Lead Sprinkler (AR_LeadSprinkler)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_LeadSprinkler,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.0
-
-# Traitor's Death (AR_TraitorsDeath)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_TraitorsDeath,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
-
-# Rowans Call Damage 	1 -> 2.25
+# Rowans Call 
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,AR_Rowan,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.15
 
 
 ## TORGUE
 
+## BROKEN NEEDS FIXED
+
 # Alchemist (AR_Alchemist)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,AR_Alchemist,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.0
+
+## WORKS
 
 # Amber Management (AR_AmberManagement)	
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,AR_AmberManagement,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.2
 
 # Bearcat (AR_Bearcat)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,AR_Bearcat,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.2
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,AR_Bearcat,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.525
 
 # Laser-Sploder (AR_LaserSploder)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,AR_LaserSploder,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.3
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,AR_LaserSploder,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.860
 
 # TriBolt (AR_TryBolt)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,AR_TryBolt,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.75
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,AR_TryBolt,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,7.0
 
 
 ## VLADOF
 
 # Damned (AR_Damned) 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Damned,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.45
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Damned,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.3
 
 # Faisor (AR_Faisor)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Faisor,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.55
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Faisor,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.34
 
 # Lucian's Call (AR_LuciansCall)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_LuciansCall,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.50
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_LuciansCall,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.867
 
 # Ogre (AR_Ogre)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Ogre,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.50
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Ogre,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.125
 
 # Sickle (AR_Sickle)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Sickle,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.575
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Sickle,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.5625
 
 # The Dictator (AR_Dictator)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Dictator,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.25
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Dictator,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.215
 
 # The Monarch (MH2) (AR_TheMonarch)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_TheMonarch,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Mayhem2/Gear/Weapon/DataTable_WeaponBalance_Mayhem2.DataTable_WeaponBalance_Mayhem2,AR_TheMonarch,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.44
 
 # Shredifier (AR_Shreddifier) 
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Shreddifier,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
-
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,AR_Shreddifier,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.970
 
 
 
