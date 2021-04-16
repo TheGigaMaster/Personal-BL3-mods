@@ -23,4 +23,4 @@ To find what weapons are buffed/nerfed, please refer to the spreadsheet above (a
 
 Items highlighted in green are buffed, and red are nerfed.
 
-0.1.0 - First unofficial release. Includes changes to base game pistols, SMG's, and AR's. This is designed to lay the foundation/groundwork of how this mod will be made. Values will NOT be balanced very well, if at all.
+0.1.0 - First unofficial release. Includes changes to legendary base game pistols, SMG's, and AR's. This is designed to lay the foundation/groundwork of how this mod will be made. Values will NOT be balanced very well, if at all.
