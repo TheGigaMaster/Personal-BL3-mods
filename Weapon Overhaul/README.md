@@ -28,7 +28,7 @@ Discord: SkyMaster#6302
 
 # Known Issues
 
-- Guns that don't work include: 
+- Buffs that aren't working 
   - SMG's
     - Sleeping Giant
     - Redistirbutor
@@ -49,9 +49,11 @@ Discord: SkyMaster#6302
 
 # Changelog
 
-To find what weapons are buffed/nerfed, please refer to the spreadsheet above (also WIP), as this lists BaseValueConstant changes which directly affect weapon damage output.
+To find what weapons are buffed/nerfed, please refer to the spreadsheet above (also WIP). See the individual tab you want for a specific weapon (IE Base Pistol DMG). Weapons in yellow are currently not working and I need to rework. 
 
 Items highlighted in green are buffed, and red are nerfed.
+
+#
 
 0.1.8 - Re-balanced base game snipers.
 
