@@ -18,8 +18,9 @@ Discord: SkyMaster#6302
 
 # Highlighted Changes
 
-CURRENT PROGRESS: BASE GAME and NO DLC'S
-I will do the DLC's in due time.
+CURRENT PROGRESS: BASE GAME and NO DLC'S.
+
+I will get to the DLC's in due time. Please don't come yelling at me that "MuH FAvoRItE gUN iSN't GoOd yEt". Bitch, I do this shit fo free, so don't get your panties in a wad.
 
 - Buffs
   - Nearly every base game Pistol, SMG, Assault Rifle, Shotgun, and Sniper
