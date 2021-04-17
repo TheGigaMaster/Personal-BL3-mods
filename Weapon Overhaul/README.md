@@ -115,7 +115,7 @@ Items highlighted in green are buffed, and red are nerfed. I'll be working on cr
   - This is later down the line once I have finished adding all weapons to the mod.
 - Fine tune weapons prn
 
-## Plans for weapons
+## Future Plans
 - Base game rocket launchers
 - DLC's 1-6
 - Takedown weapons
