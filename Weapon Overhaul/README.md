@@ -16,14 +16,6 @@ If anything feels broken/OP or underpowered, please contact me on Discord. I nee
 
 Discord: SkyMaster#6302
 
-#
-
-ONE FINAL NOTE
-
-I will get to the DLC's in due time. Please don't come yelling at me about stuff like "MuH FAvoRItE gUN iSN't GoOd yEt".  Bitch, I do this shit fo free, so don't get your panties in a wad. And don't yell at me like "YoU RUinEd tHE gAMe" - you're the one who download this mod, YOU wanted this. I just provided it to you. If you don't like it, learn how to code and fine tune it to your liking. That's what I did - I got sick of a lot of items not being viable so I said "I can fix that". And now we're here.
-
-#
-
 # Highlighted Changes
 
 CURRENT PROGRESS: BASE GAME and NO DLC'S. Still need to do rocket launchers.
@@ -130,3 +122,14 @@ Items highlighted in green are buffed, and red are nerfed.
 
 - WIP - get fucked nerd
 - See the document above. I'm not copying something twice.
+
+
+#
+
+ONE FINAL NOTE
+
+First off, if you've read this far, I'm suprised. Most people have the patients of a goldfish.
+
+I will get to the DLC's in due time. Please don't come yelling at me about stuff like "MuH FAvoRItE gUN iSN't GoOd yEt".  Bitch, I do this shit fo free, so don't get your panties in a wad. And don't yell at me like "YoU RUinEd tHE gAMe" - you're the one who download this mod, YOU wanted this. I just provided it to you. If you don't like it, learn how to code and fine tune it to your liking. That's what I did - I got sick of a lot of items not being viable so I said "I can fix that". And now we're here.
+
+#
