@@ -178,6 +178,5 @@ First off, if you've read this far, I'm suprised. Most people have the patients 
 I will get to the DLC's in due time. Please don't come yelling at me about stuff like "MuH FAvoRItE gUN iSN't GoOd yEt" or "YoU RUinEd tHE gAMe" - This is a personal project that rapidly evolved and now I'm doing a game overhaul. I got sick of a lot of items not being viable so I said "I can fix that". And now we're here. I appreciate anyone and everyone who plays/uses this mod, as I've spent multiple hours (15+ now) creating and fine tuning this.
 
 Enjoy the mod!
-
-- TheGigaMaster
+-TheGigaMaster
 
