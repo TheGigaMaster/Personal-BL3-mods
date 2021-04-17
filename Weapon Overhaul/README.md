@@ -17,15 +17,28 @@ Any and all feedback is appreciated, as it'll allow me to better balance weapons
 If anything feels broken/OP or underpowered, please contact me on Discord.
 Discord: SkyMaster#6302
 
+#
+
+# To Do
+
+- Fine tune weapons prn
+- Base game rocket launchers
+- DLC's 1-6
+- Takedown weapons
+
+#
+
 # Changelog
 
 To find what weapons are buffed/nerfed, please refer to the spreadsheet above (also WIP), as this lists BaseValueConstant changes which directly affect weapon damage output.
 
 Items highlighted in green are buffed, and red are nerfed.
 
-0.1.7 - Balanced shotguns. Only 1 isn't working (the redline).
+0.1.8 - Re-balanced base game snipers.
 
-0.1.6 - Balanced assault rifles. Some don't work and are noted in the mod and the spreadsheet. I will come back to these. For now, I'm going to continue to lay the groundwork for all guns.
+0.1.7 - Balanced base game shotguns. Only 1 isn't working (the redline).
+
+0.1.6 - Balanced base game assault rifles. Some don't work and are noted in the mod and the spreadsheet. I will come back to these. For now, I'm going to continue to lay the groundwork for all guns.
 
 0.1.5 - Completely rebalanced all pistols and SMG's. Buff values can be found on the spreadsheet in the corresponding sheet (ie Base SMG DMG or Base Pistol DMG)
 
