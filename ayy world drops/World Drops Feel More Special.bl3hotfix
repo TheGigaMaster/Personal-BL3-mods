@@ -1,0 +1,16 @@
+
+# Wolrd Drops Feel More Special (Credit: EpicNGG)
+
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/RarityData/RarityData_05_Legendary.RarityData_05_Legendary,RarityColorFX,0,,(r=0.020,g=0.978,b=0.882,a=1)
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/RarityData/RarityData_05_Legendary.RarityData_05_Legendary,RarityColorOutline,0,,(r=0.020,g=0.978,b=0.882,a=1)
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/RarityData/RarityData_05_Legendary.RarityData_05_Legendary,RarityFrameName,0,,Mission
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/RarityData/RarityData_05_Legendary.RarityData_05_Legendary,RarityDisplayname,0,,PEARLESCENT
+
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/RarityData/RarityData_05_Legendary.RarityData_05_Legendary,RarityLootAudioStinger,0,,/Game/Audio/Events/UX/HUD/Character_Global/WE_HUD_Global_Level_Up.WE_HUD_Global_Level_Up
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/RarityData/RarityData_05_Legendary.RarityData_05_Legendary,ZoneMapPOIType,0,,/Game/GameData/ZoneMap/POI_Types/POI_LegendaryPickup.POI_LegendaryPickup
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/RarityData/RarityData_05_Legendary.RarityData_05_Legendary,ZoneMapPOIType,0,,/Game/GameData/ZoneMap/POI_Types/POI_LegendaryPickup.POI_LegendaryPickup
+
+# PEARL LOOT BEAM SIZE
+SparkPatchEntry,(1,1,0,),/Game/Pickups/_Shared/Effects/Systems/PS_ItemLocatorStick_Common.PS_ItemLocatorStick_Common:ParticleModuleSize_0.DistributionVectorConstant_1,Constant.Y,0,,650
+SparkPatchEntry,(1,1,0,),/Game/Pickups/_Shared/Effects/Systems/PS_ItemLocatorStick_Common.PS_ItemLocatorStick_Common:ParticleModuleSize_0.DistributionVectorConstant_1,Constant.X,0,,35
+
