@@ -26,7 +26,14 @@ Discord: SkyMaster#6302
 - DLC's 1-6
 - Takedown weapons
 
+# Known Issues
 
+- Guns that don't work include: 
+- SMG's: Sleeping Giant, Redistirbutor
+- Pistols: Roisen's Thorns, Bone Shredder
+- Assault Rifles: Embrace the Pain, Pain is Power, Bekha, Traitor's Death, Alchemist
+- Shotguns: Redline
+- Snipers: Tankman's Shield, Storm
 
 # Changelog
 
