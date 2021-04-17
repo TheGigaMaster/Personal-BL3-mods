@@ -10,7 +10,7 @@ You can find a table with the values I'm adjusting below:
 https://docs.google.com/spreadsheets/d/1zrFLIIbHIA9CVrRWtymLQw-GrR0Vt7IgIok5gHRA8Lo/edit?usp=sharing
 
 
-This mod is very much so a WIP, so thing's will NOT be balanced. I created the values based on how they feel/feedback I get from people. Any and all feedback is appreciated, as it'll allow me to better balance weapons out. After all, we don't want to end up with another Free Radical.
+This mod is very much so a WIP, so thing's will NOT be balanced. I created the values based on how they feel/feedback I get from people. Any and all feedback is appreciated, as it'll allow me to better balance weapons out. After all, we don't want to end up with another Free Radical. The powecreep shall be no more!
 
 If anything feels broken/OP or underpowered, please contact me on Discord. I need feedback to really nail down the balance. 
 
