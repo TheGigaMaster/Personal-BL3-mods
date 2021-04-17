@@ -10,17 +10,23 @@ You can find a table with the values I'm adjusting below:
 https://docs.google.com/spreadsheets/d/1zrFLIIbHIA9CVrRWtymLQw-GrR0Vt7IgIok5gHRA8Lo/edit?usp=sharing
 
 
-This mod is very much so a WIP, so thing's will NOT be balanced at all. I created the values based on how they feel.
-Any and all feedback is appreciated, as it'll allow me to better balance weapons out. After all, we don't want to end up with another Free Radical.
+This mod is very much so a WIP, so thing's will NOT be balanced. I created the values based on how they feel/feedback I get from people. Any and all feedback is appreciated, as it'll allow me to better balance weapons out. After all, we don't want to end up with another Free Radical.
 
-If anything feels broken/OP or underpowered, please contact me on Discord.
+If anything feels broken/OP or underpowered, please contact me on Discord. I need feedback to really nail down the balance. 
+
 Discord: SkyMaster#6302
+
+#
+
+ONE FINAL NOTE
+
+I will get to the DLC's in due time. Please don't come yelling at me about stuff like "MuH FAvoRItE gUN iSN't GoOd yEt".  Bitch, I do this shit fo free, so don't get your panties in a wad. And don't yell at me like "YoU RUinEd tHE gAMe" - you're the one who download this mod, YOU wanted this. I just provided it to you. If you don't like it, learn how to code and fine tune it to your liking. That's what I did - I got sick of a lot of items not being viable so I said "I can fix that". And now we're here.
+
+#
 
 # Highlighted Changes
 
-CURRENT PROGRESS: BASE GAME and NO DLC'S.
-
-I will get to the DLC's in due time. Please don't come yelling at me that "MuH FAvoRItE gUN iSN't GoOd yEt". Bitch, I do this shit fo free, so don't get your panties in a wad.
+CURRENT PROGRESS: BASE GAME and NO DLC'S. Still need to do rocket launchers.
 
 - Buffs
   - Nearly every base game Pistol, SMG, Assault Rifle, Shotgun, and Sniper
@@ -30,13 +36,13 @@ I will get to the DLC's in due time. Please don't come yelling at me that "MuH F
     - Hyperion snipers holes in heads instead of shooting a party popper at them
 - Notable Nerfs
   - Pistols
-    - Hellshock
+    - Hellshock = -10%
   - Assault Rifles
-    - The Monarch
+    - The Monarch = -10%
   - Shotguns
-    - Reflux
-    - Hellwalker
-- Tediore is back baby! Almost every Tediore weapon got a 50%+ damage buff.
+    - Reflux  = -12.5%
+    - Hellwalker = -10%
+- Tediore is back! Almost every Tediore weapon got a 50%+ damage buff. These will be fine tuned as time goes on.
 
 # Known Issues
 
