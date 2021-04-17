@@ -34,7 +34,7 @@ CURRENT PROGRESS: BASE GAME and NO DLC'S. Still need to do rocket launchers.
     - The Shredifier deals damage
     - The Brainstormer is now actually viable
     - Hyperion snipers create holes in heads instead of shooting a party popper
-- Notable Nerfs
+- Nerfs
   - Pistols
     - Hellshock = -10%
   - Assault Rifles
