@@ -9,17 +9,21 @@
 ###
 
 
-
 ###
 ### Read github page for full description and changes.
 ###
 ### Rebalances almost all legendary/red-text weapons in the game.
+###
 ### Current progress: finishing base game
 ###
+
 
 ###
 ### Data Sheet: https://docs.google.com/spreadsheets/d/1zrFLIIbHIA9CVrRWtymLQw-GrR0Vt7IgIok5gHRA8Lo/edit?usp=sharing
 ###
+
+# For other modders: Some weapons have a LevelEntryPatch and others have a EarlyLevelEntryPatch.
+# If it has the EarlyLevelEntryPatch, I've tested it and it won't work without it. I use it prn.
 
 ## other things to do
 # buff dedicated drops
@@ -35,13 +39,26 @@
 # NERF guardian angel
 # INCLUDE ReVolte Nerf
 # Increase kickcharger ammo consumption
-# new maliwan pistol nerf
+# new maliwan pistol nerf (that thing's busted as all fuck)
 
 
+
+
+
+### Finished
+
+## Guaridan Takedown
+# Done! Only 3 guns tho, but still. Progress!
+
+
+
+
+
+### In Progress
 
 ## Base Game 
-# Done with pistols, SMG's and AR's
-# Need to do shotguns, snipers, and launchers
+# Done with pistols, SMG's and AR's, SG's and SR's
+# Need to do launchers
 
 ## DLC 1 - Jackpot
 # Table created
@@ -64,8 +81,6 @@
 ## Maliwan Takedown
 # Table created
 
-## Guaridan Takedown
-# Table created
 
 
 
@@ -78,7 +93,6 @@
 ### Base Game
 ###
 ### PISTOLS
-
 
 
 ## ATLAS
@@ -116,11 +130,14 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 ## DAHL
 
+## BROKEN
 
 # AAA
 # Currently not working, investigate further
-
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/Pistols/Dahl/_Shared/_Design/_Unique/AAA/Parts/Part_Dal_PS_AAA.Part_Dal_PS_AAA,WeaponUseModeAttributeEffects,AttributeEffects.AttributeEffects[2],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=2.25,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))
+
+
+# WORKS
 
 # Hornet
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,PS_Hornet,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.875
@@ -133,7 +150,6 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 
 ## JAKOBS
-
 
 # Amazing Grace	(PS_AmazingGrace)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,PS_AmazingGrace,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.120
@@ -163,7 +179,6 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 # Wagon Wheel (PS_WagonWheel) 
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,PS_WagonWheel,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.745
-
 
 
 ## MALIWAN
@@ -307,7 +322,6 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/SMGs/Hyperion/_Shared/_
 # Changing weapon spread to be tighter (Credit: EpicNNG)
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/SMGs/Hyperion/_Shared/_Design/_Unique/Crossroad/Parts/Part_SM_HYP_Barrel_Crossroad.Part_SM_HYP_Barrel_Crossroad,InventoryAttributeEffects.InventoryAttributeEffects[4],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Spread.Att_Weapon_Spread"',ModifierValue=(BaseValueConstant=1))
 
-
 # Handsom Jackhammer (SM_Handsome)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_Handsome,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.210
 
@@ -322,7 +336,6 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 # Predatory Lending (SM_PredatoryLending)	
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_PredatoryLending,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.400
-
 
 
 ## MALIWAN
@@ -357,7 +370,6 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 #SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Mayhem2/Gear/Weapon/DataTable_WeaponBalance_Mayhem2.DataTable_WeaponBalance_Mayhem2,SM_DNA,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
 
 
-
 ## TEDIORE
 
 # Long Musket (SM_NotAFlamethrower)
@@ -371,6 +383,11 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 # Needle Gun (SM_NeedleGun)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Event2/Gear/Weapon/DataTable_WeaponBalance_Event2.DataTable_WeaponBalance_Event2,SM_NeedleGun,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.67
+
+
+
+
+
 
 
 
@@ -511,6 +528,9 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 
 
+
+
+
 ### SHOTGUNS
 
 
@@ -625,6 +645,10 @@ SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Balance/Dat
 
 
 
+
+
+
+
 ### SNIPERS
 
 
@@ -645,9 +669,9 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 # Two Time (SR_TheTwoTime)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SR_TheTwoTime,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.687
 
-
 # Woodblocker (SR_Quad)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SR_Quad,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.4
+
 
 ## BROKE
 
@@ -687,6 +711,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 # Soleki Protocol (SR_Ikelos)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_MAL.DataTable_WeaponBalance_Unique_MAL,SR_Ikelos,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.0012
 
+
 ## BROKEN
 
 # Storm (SR_Storm)
@@ -700,6 +725,10 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 # Lyuda (SR_Lyuda)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_Lyuda,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.650
+
+
+
+
 
 
 
