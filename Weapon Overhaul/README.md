@@ -121,9 +121,7 @@ Items highlighted in green are buffed, and red are nerfed.
 
 # FULL BUFF/NERF LIST
 
-- WIP - get fucked nerd
 - See the document above. I'm not copying something twice.
-
 
 #
 
