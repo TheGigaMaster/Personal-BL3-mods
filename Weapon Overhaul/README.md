@@ -31,9 +31,9 @@ CURRENT PROGRESS: BASE GAME and NO DLC'S. Still need to do rocket launchers.
 - Buffs
   - Nearly every base game Pistol, SMG, Assault Rifle, Shotgun, and Sniper
     - The Crossroad has it's 4th projectile again and actually deals good DPS
-    - Shredifier deals damage
+    - The Shredifier deals damage
     - The Brainstormer is now actually viable
-    - Hyperion snipers holes in heads instead of shooting a party popper at them
+    - Hyperion snipers create holes in heads instead of shooting a party popper
 - Notable Nerfs
   - Pistols
     - Hellshock = -10%
@@ -42,7 +42,7 @@ CURRENT PROGRESS: BASE GAME and NO DLC'S. Still need to do rocket launchers.
   - Shotguns
     - Reflux  = -12.5%
     - Hellwalker = -10%
-- Tediore is back! Almost every Tediore weapon got a 50%+ damage buff. These will be fine tuned as time goes on.
+- Tediore is back! Almost every Tediore weapon got a 50%+ damage buff. These will be fine tuned as time goes on and feedback is given/collected.
 
 # Known Issues
 
