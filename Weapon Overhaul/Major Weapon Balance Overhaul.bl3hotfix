@@ -533,8 +533,8 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 # Phebert  (SG_Phebert)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Phebert,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,10.150
 
-# Reflux 
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Mayhem2/Gear/Weapon/DataTable_WeaponBalance_Mayhem2.DataTable_WeaponBalance_Mayhem2,SG_Reflux,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.575
+# Reflux NERF
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Mayhem2/Gear/Weapon/DataTable_WeaponBalance_Mayhem2.DataTable_WeaponBalance_Mayhem2,SG_Reflux,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.531
 
 
 ## Jakobs
@@ -555,7 +555,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_OnePumpChump,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,14.4
 
 # Hellwalker NERF
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Hellwalker,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.6887
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Hellwalker,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.50
 
 # Tidal Wave (Direct file edit)
 
