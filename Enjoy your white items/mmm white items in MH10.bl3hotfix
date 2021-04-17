@@ -1,0 +1,8 @@
+
+
+# Enjoying those white items? Now you will!
+
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats,Common,DamageScale_6_44C1C8784B7991DCCCF68DA3127A53C0,0,,5.0
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats,Common,SpreadScale_8_D7376BDD4BB47794C6ECD995F0B66F07,0,,0.9
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats,Common,FireRateScale_11_10E7E12E4756B0EAD899BE8513F300AC,0,,1.75
+SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Rarity_Stats,Common,ElementalChanceScale_14_7044338B492EDD3EB1E5E2A58FA9113B,0,,1.3
