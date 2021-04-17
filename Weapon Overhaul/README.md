@@ -1,45 +1,68 @@
 # Weapon Overhaul Mod
 
-Nobody likes useless legendary items. I personally hate throwing away a large number of weapons. It irks me. So, I decided to change that.
+## TLDR
 
-This mod changes the damage values of a large number of weapons (almost all legendary weapons), as many feel unusable after a certain point (I'm looking at you, Lucian's Call).
+Almost all legendary/unique weapons are buffed and some are nerfed to balance out damage across the board.
 
-This WILL affect game balance significantly, but will also make previously useless weapons feel good and takedown weapons feel powerful. Very, very powerful.
+The motto I use is "Start low and go slow", so most guns only have a minor increase to damage to start. This will change as I get feedback, which is critical to balance; Please give any and all feedback,no matter how trivial it may feel!
+
+For a full list of changes, see the link below.
+
+Discord: SkyMaster#6302
+
+## Description
+
+Balance is defined as "stability produced by even distribution of weight on each side of the vertical axis".
+
+In BL3, the goal of balance is to make items feel like they are on an average playing field with each other, but we all know such is not the case. Some guns simply outclass others without even trying. Think of the OPQ System: Even underleveld, it's still among the best of the best.  When making changes, the idea of buffing/nerfing items is to buff items to match the DPS expected at higher levels rather than nerf overpowered items to the ground (unless its obviously broken IE free radical). Items should feel like close to each other in terms of damage and effectiveness; The player should have choice rather than be forced into specific gear setups because it is the only thing that works. 
+
+The problem I have with the current state of balance is that nobody likes useless legendary items. I personally hate throwing away a large number of weapons. It irks me. This mod changes the damage values of a large number of weapons (almost all legendary/unique/red text weapons), as many feel unusable after a certain point.
+
+This WILL affect game balance significantly, but will also make previously useless weapons feel good and takedown weapons feel powerful, like they are a weapon that should be used and not browsed over.
 
 You can find a table with the values I'm adjusting below:
 https://docs.google.com/spreadsheets/d/1zrFLIIbHIA9CVrRWtymLQw-GrR0Vt7IgIok5gHRA8Lo/edit?usp=sharing
 
+This mod is very much so a WIP, so thing's will NOT be completely balanced. I created the values based on how they feel/feedback I get from people. Any and all feedback is appreciated, as it'll allow me to better balance weapons out. After all, we don't want to end up with another Free Radical. The power-creep shall be no more!
 
-This mod is very much so a WIP, so thing's will NOT be balanced. I created the values based on how they feel/feedback I get from people. Any and all feedback is appreciated, as it'll allow me to better balance weapons out. After all, we don't want to end up with another Free Radical. The power-creep shall be no more!
-
-If anything feels broken/OP or underpowered, please contact me on Discord. I need feedback to really nail down the balance. 
+If anything feels broken/OP or underpowered, please contact me on Discord. I really need feedback to really nail down the balance. 
 
 Discord: SkyMaster#6302
 
+
 # Highlighted Changes
 
-CURRENT PROGRESS: BASE GAME and NO DLC'S. Still need to do rocket launchers.
+CURRENT PROGRESS: BASE GAME and NO DLC'S. Still need to do base game rocket launchers and Maliwan Takedown.
 
-- Buffs
-  - Nearly every base game Pistol, SMG, Assault Rifle, Shotgun, and Sniper
-    - The Crossroad has it's 4th projectile again and actually deals good DPS
-    - The Shredifier deals damage
-    - The Brainstormer is now actually viable
-    - Hyperion snipers create holes in heads instead of shooting a party popper
-    - Facepuncher = +5% (subject to further buff based on feedback)
-- Nerfs
-  - Pistols
-    - Hellshock = -10%
-  - Assault Rifles
-    - The Monarch = -10%
-  - Shotguns
-    - Reflux  = -12.5%
-    - Hellwalker = -10%
+## Buffs 
+
 - Tediore is back! Almost every Tediore weapon got a 50%+ damage buff. These will be fine tuned as time goes on and feedback is given/collected.
+- Nearly every base game Pistol, SMG, Assault Rifle, Shotgun, and Sniper
+  - The Crossroad has it's 4th projectile again and actually deals good DPS
+  - The Brainstormer is now actually viable
+  - Facepuncher = +5% (subject to bigger buff based on feedback)
+  - Hyperion snipers create holes in heads instead of shooting a party popper
+- Guardian Takedown Guns
+  - Smog = 20% dmg
+  - Web Slinger = + 200% damage
+  - Globetrottr = + 15% damage
+
+## Nerfs
+
+Subject to change based on feedback.
+
+- Pistols
+  - Hellshock = -10%
+- Assault Rifles
+  - The Monarch = -10%
+- Shotguns
+  - Reflux  = -12.5%
+  - Hellwalker = -10%
+
 
 # Known Issues
 
-- Buffs that aren't working 
+- Buffs that aren't working that need to be investigated and fixed
   - SMG's
     - Sleeping Giant
     - Redistirbutor
@@ -62,9 +85,11 @@ CURRENT PROGRESS: BASE GAME and NO DLC'S. Still need to do rocket launchers.
 
 To find what weapons are buffed/nerfed, please refer to the spreadsheet above (also WIP). See the individual tab you want for a specific weapon (IE Base Pistol DMG). Weapons in yellow are currently not working and I need to rework. 
 
-Items highlighted in green are buffed, and red are nerfed.
+Items highlighted in green are buffed, and red are nerfed. I'll be working on creating a sheet which just lists all the item buffs/nerfs in a simple easy to read format. However, that's a later thing, as I'm still laying the groundwork for the mod and adding items, then I will work on balance and fine tuning.
 
 #
+
+0.1.8.1 - Added and balanced Guardian Takedown Weapons with red text changes included. These guns should feel considerably more powerful compared to the base game stats they have.
 
 0.1.8 - Re-balanced base game snipers.
 
@@ -84,7 +109,13 @@ Items highlighted in green are buffed, and red are nerfed.
 
 # To Do
 
+## Ideas/Considerations
+
+- Create a sense of weapon progression, where not everything is good at MH 10, but have some items be good early game, some be good early MH levels, and some good at MH 10/11. Not everything should be MH 10 viable, but you can take something that isn't good and with enough work, make it MH 10 viable.  
+  - This is later down the line once I have finished adding all weapons to the mod.
 - Fine tune weapons prn
+
+## Plans for weapons
 - Base game rocket launchers
 - DLC's 1-6
 - Takedown weapons
@@ -115,13 +146,28 @@ Items highlighted in green are buffed, and red are nerfed.
     - Null Pointer  
   - Rocket Launchers
     - All of them lol - hence why it's on this to do list!
-  - All the DLC stuff
-
+  - All the DLC's (1-6)
 
 
 # FULL BUFF/NERF LIST
 
-- See the document above. I'm not copying something twice.
+- See the Google Sheet document above for all changes. This section is for the changes I hear people complain most about, or something I want to be noticed.
+
+- Overall changes
+  - All Tediore weapons will get at least a + 40% damage increase (with a few exceptions). 
+    - The anarchy is probably not going to be touched; It's in a good spot.
+
+- Base Game
+  - Crossroad 
+    - Gave back 4th projectile and tightened spread up
+    - + 115% damage to match MH 10
+  - King's/Queen's call
+    - Damage increased by 45%. This will be tinkered with and a ROF buff is planned.
+
+- Guardian Takedown
+  - Smog = 20% dmg
+  - Web Slinger = + 200% damage
+  - Globetrottr = + 15% damage
 
 #
 
@@ -131,4 +177,3 @@ First off, if you've read this far, I'm suprised. Most people have the patients 
 
 I will get to the DLC's in due time. Please don't come yelling at me about stuff like "MuH FAvoRItE gUN iSN't GoOd yEt".  Bitch, I do this shit fo free, so don't get your panties in a wad. And don't yell at me like "YoU RUinEd tHE gAMe" - you're the one who download this mod, YOU wanted this. I just provided it to you. If you don't like it, learn how to code and fine tune it to your liking. That's what I did - I got sick of a lot of items not being viable so I said "I can fix that". And now we're here.
 
-#
