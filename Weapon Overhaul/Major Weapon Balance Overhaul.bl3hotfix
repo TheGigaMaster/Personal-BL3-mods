@@ -1,7 +1,7 @@
 ###
 ### Name: Major Weapon Balance Overhaul
 ### Author: TheGigaMaster
-### Version: 0.1.8
+### Version: 0.1.8.1
 ### Categories: gear-general
 ###
 ### License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
@@ -702,6 +702,44 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 # Lyuda (SR_Lyuda)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,SR_Lyuda,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.650
+
+
+
+
+
+
+
+
+
+
+
+### GUARDIAN TAKEDOWN
+
+## WEAPONS
+
+# Smog 
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Takedown2/Gear/Weapons/DataTable_WeaponBalance_Takedown2.DataTable_WeaponBalance_Takedown2,SM_Smog,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.59971
+
+# Web Slinger (uses 1.0 as base, but something else buffs it at some other point so I play around that lmao)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Takedown2/Gear/Weapons/DataTable_WeaponBalance_Takedown2.DataTable_WeaponBalance_Takedown2,AR_WebSlinger,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,12.49861
+
+# Web Slinger Underbarrel 
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Takedown2/Gear/Weapons/DataTable_WeaponBalance_Takedown2.DataTable_WeaponBalance_Takedown2,AR_Webslinger_Underbarrel,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,31.69685
+
+# Globetrottr 
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Takedown2/Gear/Weapons/DataTable_WeaponBalance_Takedown2.DataTable_WeaponBalance_Takedown2,HW_Globetrotter,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.150
+
+
+## REX TEXT
+
+# Smog Red Text Change
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Weapons/Smog/UIStat_RedText_Smog.UIStat_RedText_Smog,Text,0,,[Flavor][cryo]...that you may be filled with all the fullness...[/cryo][/Flavor]
+
+# Web Slinger Red Text Change
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Weapons/WebSlinger/UIStat_RedText_WebSlinger.UIStat_RedText_WebSlinger,Text,0,,[Flavor][cryo]If I can fool a bug... I can surely fool a man.[/cryo][/Flavor]
+
+
+
 
 
 
