@@ -29,11 +29,11 @@ Discord: SkyMaster#6302
 # Known Issues
 
 - Guns that don't work include: 
-- SMG's: Sleeping Giant, Redistirbutor
-- Pistols: Roisen's Thorns, Bone Shredder
-- Assault Rifles: Embrace the Pain, Pain is Power, Bekha, Traitor's Death, Alchemist
-- Shotguns: Redline
-- Snipers: Tankman's Shield, Storm
+  - SMG's: Sleeping Giant, Redistirbutor
+  - Pistols: Roisen's Thorns, Bone Shredder
+  - Assault Rifles: Embrace the Pain, Pain is Power, Bekha, Traitor's Death, Alchemist
+  - Shotguns: Redline
+  - Snipers: Tankman's Shield, Storm
 
 # Changelog
 
@@ -60,3 +60,4 @@ Items highlighted in green are buffed, and red are nerfed.
 # FULL BUFF/NERF LIST
 
 - WIP - get fucked nerd
+- See the document above. I'm not copying something twice.
