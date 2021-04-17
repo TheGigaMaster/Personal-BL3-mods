@@ -17,7 +17,7 @@ Any and all feedback is appreciated, as it'll allow me to better balance weapons
 If anything feels broken/OP or underpowered, please contact me on Discord.
 Discord: SkyMaster#6302
 
-#
+
 
 # To Do
 
@@ -26,7 +26,7 @@ Discord: SkyMaster#6302
 - DLC's 1-6
 - Takedown weapons
 
-#
+
 
 # Changelog
 
