@@ -175,5 +175,9 @@ ONE FINAL NOTE
 
 First off, if you've read this far, I'm suprised. Most people have the patients of a goldfish.
 
-I will get to the DLC's in due time. Please don't come yelling at me about stuff like "MuH FAvoRItE gUN iSN't GoOd yEt".  Bitch, I do this shit fo free, so don't get your panties in a wad. And don't yell at me like "YoU RUinEd tHE gAMe" - you're the one who download this mod, YOU wanted this. I just provided it to you. If you don't like it, learn how to code and fine tune it to your liking. That's what I did - I got sick of a lot of items not being viable so I said "I can fix that". And now we're here.
+I will get to the DLC's in due time. Please don't come yelling at me about stuff like "MuH FAvoRItE gUN iSN't GoOd yEt" or "YoU RUinEd tHE gAMe" - This is a personal project that rapidly evolved and now I'm doing a game overhaul. I got sick of a lot of items not being viable so I said "I can fix that". And now we're here. I appreciate anyone and everyone who plays/uses this mod, as I've spent multiple hours (15+ now) creating and fine tuning this.
+
+Enjoy the mod!
+
+- TheGigaMaster
 
