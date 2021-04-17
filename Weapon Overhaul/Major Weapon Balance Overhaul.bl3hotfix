@@ -2,26 +2,24 @@
 ### Name: Major Weapon Balance Overhaul
 ### Author: TheGigaMaster
 ### Version: 0.1.8.1
-### Categories: gear-general
+### Categories: major-pack, gear-changes, gear-general, gear-pack, gear-ar, gear-pistol, gear-heavy, gear-shotgun, gear-smg, gear-sniper
 ###
 ### License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 ### License URL: https://creativecommons.org/licenses/by-sa/4.0/
 ###
 
+
+
 ###
-### Changes the damage values of a large number of weapons, as many feel unusable after a certain point.
-### This WILL affect game balance significantly, but will also make previously useless weapons feel good.
-### This mod is very much so a WIP, so thing's will NOT be balanced at all. I created the values based on how they feel.
+### Read github page for full description and changes.
 ###
-### You can find a table with the values I'm adjusting below:
-### https://docs.google.com/spreadsheets/d/1zrFLIIbHIA9CVrRWtymLQw-GrR0Vt7IgIok5gHRA8Lo/edit?usp=sharing
+### Rebalances almost all legendary/red-text weapons in the game.
+### Current progress: finishing base game
 ###
 
 ###
-### If anything feels broken/OP or underpowered, please contact me on Discord.
-### Discord: SkyMaster#6302
+### Data Sheet: https://docs.google.com/spreadsheets/d/1zrFLIIbHIA9CVrRWtymLQw-GrR0Vt7IgIok5gHRA8Lo/edit?usp=sharing
 ###
-
 
 ## other things to do
 # buff dedicated drops
