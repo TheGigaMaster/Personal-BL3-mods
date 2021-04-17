@@ -1,0 +1,5 @@
+
+# nerf damage from 500% to 250%
+
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/VaultCard/Gear/Weapons/DataTable_WeaponBalance_VaultCard.DataTable_WeaponBalance_VaultCard,Guardian,Custom_A_10_6BE78EF448AB3F6F228BC7B266814C86,0,,2.5
+
