@@ -29,11 +29,23 @@ Discord: SkyMaster#6302
 # Known Issues
 
 - Guns that don't work include: 
-  - SMG's: Sleeping Giant, Redistirbutor
-  - Pistols: Roisen's Thorns, Bone Shredder
-  - Assault Rifles: Embrace the Pain, Pain is Power, Bekha, Traitor's Death, Alchemist
-  - Shotguns: Redline
-  - Snipers: Tankman's Shield, Storm
+  - SMG's
+    - Sleeping Giant
+    - Redistirbutor
+  - Pistols
+    - Roisen's Thorns
+    - Bone Shredder
+  - Assault Rifles
+    - Embrace the Pain
+    - Pain is Power
+    - Bekha
+    - Traitor's Death
+    - Alchemist
+  - Shotguns
+    - Redline
+  - Snipers
+    - Tankman's Shield
+    - Storm
 
 # Changelog
 
