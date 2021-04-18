@@ -90,9 +90,11 @@
 
 
 
+
 ### Base Game
 ###
 ### PISTOLS
+
 
 
 ## ATLAS
@@ -130,14 +132,11 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 ## DAHL
 
-## BROKEN
 
 # AAA
 # Currently not working, investigate further
+
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/Pistols/Dahl/_Shared/_Design/_Unique/AAA/Parts/Part_Dal_PS_AAA.Part_Dal_PS_AAA,WeaponUseModeAttributeEffects,AttributeEffects.AttributeEffects[2],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=2.25,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))
-
-
-# WORKS
 
 # Hornet
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,PS_Hornet,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.875
@@ -151,6 +150,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 ## JAKOBS
 
+
 # Amazing Grace	(PS_AmazingGrace)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,PS_AmazingGrace,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.120
 
@@ -160,8 +160,10 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 # Dead Chamber	(PS_Malevolent)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,PS_Malevolent,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.30
 
+# buff fire rate from -70 to -50
+
 # Queens Call 	(PS_GodQueen)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,PS_GodQueen,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.440
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,PS_GodQueen,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.740 
 
 # The Companion (PS_Companion)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,PS_Companion,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.2
@@ -179,6 +181,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 # Wagon Wheel (PS_WagonWheel) 
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,PS_WagonWheel,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.745
+
 
 
 ## MALIWAN
@@ -236,7 +239,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 ## VLADOF
 
 # Bone Shredder (PS_BoneShredder)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,PS_BoneShredder,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.00
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Vladof/_Shared/_Design/_Unique/BoneShredder/Parts/Part_PS_VLA_Barrel_BoneShredder.Part_PS_VLA_Barrel_BoneShredder,InventoryAttributeEffects.InventoryAttributeEffects[5],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.725,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))
 
 # Infininty (PS_Infiniti)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_VLA.DataTable_WeaponBalance_Unique_VLA,PS_Infiniti,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.5
@@ -299,11 +302,11 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 # Vanquisher (SM_Vanquisher)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,SM_Vanquisher,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.680
 
-
-## NOT WORKING
-
 # Sleeping Giant (direct file modification)
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/_Unique/SleepingGiant/Part/Part_SM_DAL_Barrel_SleepingGiant.Part_SM_DAL_Barrel_SleepingGiant,WeaponUseModeAttributeEffects.WeaponUseModeAttributeEffects[0],AttributeEffects.AttributeEffects[0],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.35,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/_Unique/SleepingGiant/Parts/Part_SM_DAL_Barrel_SleepingGiant.Part_SM_DAL_Barrel_SleepingGiant,InventoryAttributeEffects.InventoryAttributeEffects[0],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.25,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))
+
+
+
 
 
 ## HYPERION
@@ -329,13 +332,15 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_XZ,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.188
 
 # Redistirbutor (SM_Fork)	
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_Fork,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.500
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Balance/DataTable_Raid1_Weapons.DataTable_Raid1_Weapons,SM_Fork2,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.200
 
 # Lovemachine	1 -> 3.35
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,L0V3M4CH1N3,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,3.125
 
 # Predatory Lending (SM_PredatoryLending)	
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SM_PredatoryLending,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.400
+
+
 
 
 ## MALIWAN
@@ -370,6 +375,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 #SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Mayhem2/Gear/Weapon/DataTable_WeaponBalance_Mayhem2.DataTable_WeaponBalance_Mayhem2,SM_DNA,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.35
 
 
+
 ## TEDIORE
 
 # Long Musket (SM_NotAFlamethrower)
@@ -397,7 +403,26 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Event2/Gear/Weapon/DataTabl
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### ASSAULT RIFLES
+
 
 
 ## ATLAS
@@ -408,19 +433,23 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 # RebelYell
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Atlas/_Shared/_Design/_Unique/RebellYell/Parts/Part_AR_ATL_Barrel_RebelYell.Part_AR_ATL_Barrel_RebelYell,InventoryAttributeEffects.InventoryAttributeEffects[0],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=2.295,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))
 
-
 ## COV
+
 
 # Sawbar (AR_SAWBAR) 
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,AR_SAWBAR,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.40
+
+# Embrace the Pain (AR_KreigDamage)
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/ChildrenOfTheVault/_Shared/_Design/_Unique/KriegAR/Parts/Damage/Part_AR_COV_Barrel_HeatDamage.Part_AR_COV_Barrel_HeatDamage,InventoryAttributeEffects.InventoryAttributeEffects[1],0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage"',ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=2.875,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0))
+
+
 
 # NEEDS REWORKED
 
 # Pain is Power (AR_CHAOS) 
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,AR_CHAOS,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.4
 
-# Embrace the Pain (AR_KreigDamage)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_COV.DataTable_WeaponBalance_Unique_COV,AR_KreigDamage,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.960
+
 
 
 ## DAHL
@@ -442,6 +471,8 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 # Warlord (AR_Warlord) 
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_DAL.DataTable_WeaponBalance_Unique_DAL,AR_Warlord,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.350
+
+
 
 
 ## JAKOBS
@@ -531,8 +562,18 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 
 
-### SHOTGUNS
 
+
+
+
+
+
+
+
+
+
+
+### SHOTGUNS
 
 ## Hyperion
 
@@ -542,8 +583,8 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 # Butcher (SG_Butcher)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Butcher,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.688
 
-# Conference Call  (SG_ConferenceCall)
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_ConferenceCall,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.322
+# Conference Call  (SG_ConferenceCall) 
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_ConferenceCall,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.322
 
 # Face Puncher  (SG_Brick)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Brick,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,0.315
@@ -551,8 +592,8 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 # Phebert  (SG_Phebert)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SG_Phebert,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,10.150
 
-# Reflux NERF
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Mayhem2/Gear/Weapon/DataTable_WeaponBalance_Mayhem2.DataTable_WeaponBalance_Mayhem2,SG_Reflux,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.531
+# Reflux 
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Mayhem2/Gear/Weapon/DataTable_WeaponBalance_Mayhem2.DataTable_WeaponBalance_Mayhem2,SG_Reflux,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.575
 
 
 ## Jakobs
@@ -573,7 +614,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_OnePumpChump,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,14.4
 
 # Hellwalker NERF
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Hellwalker,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.50
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_JAK.DataTable_WeaponBalance_Unique_JAK,SG_Hellwalker,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.6887
 
 # Tidal Wave (Direct file edit)
 
@@ -610,6 +651,8 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TED.DataTable_WeaponBalance_Unique_TED,SG_Horizon,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,4.461
 
 
+
+
 ## TORGUE
 
 # Chomper (SG_Balrog)
@@ -620,6 +663,8 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 # Flakker Fire Rate 	1 -> 1.35
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/_Unique/Flakker/Parts/Part_SG_Torgue_Barrel_Flakker.Part_SG_Torgue_Barrel_Flakker,AspectList.AspectList[0].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,1.35
+
+
 
 # Lob (SG_TheLob)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_TOR.DataTable_WeaponBalance_Unique_TOR,SG_TheLob,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.980
@@ -649,8 +694,13 @@ SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Balance/Dat
 
 
 
-### SNIPERS
 
+
+
+
+
+
+### SNIPERS
 
 ## DAHL
 
@@ -669,14 +719,15 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 # Two Time (SR_TheTwoTime)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SR_TheTwoTime,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,1.687
 
+
 # Woodblocker (SR_Quad)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/_Unique/DataTable_WeaponBalance_Unique_HYP.DataTable_WeaponBalance_Unique_HYP,SR_Quad,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,2.4
-
 
 ## BROKE
 
 # Tankman's Shield (Tankman)
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Re-Engagement/Balance/DataTable_ReEngagement1_Weapons.DataTable_ReEngagement1_Weapons,Tankman,DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53,0,,12.5
+
 
 
 ## JAKOBS
@@ -735,11 +786,6 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Gamepla
 
 
 
-
-
-
-
-
 ### GUARDIAN TAKEDOWN
 
 ## WEAPONS
@@ -764,12 +810,6 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Weapons/Smog/UIStat_RedTe
 
 # Web Slinger Red Text Change
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Takedown2/Gear/Weapons/WebSlinger/UIStat_RedText_WebSlinger.UIStat_RedText_WebSlinger,Text,0,,[Flavor][cryo]If I can fool a bug... I can surely fool a man.[/cryo][/Flavor]
-
-
-
-
-
-
 
 
 ## UP NEXT: Heavy Weapons and maybe some grenades
