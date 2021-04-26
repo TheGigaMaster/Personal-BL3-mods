@@ -74,3 +74,5 @@
 (Base numbers and results are in cm/s, so the (rounded) results are as follows:
 109387 cm/s | 3937,932 km/h | 2446.91 mi/h | Mach 3,18
 )
+
+Video: https://streamable.com/f4boly
